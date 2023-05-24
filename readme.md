@@ -54,8 +54,7 @@ _A word of caution_: This is not intended to be the best or the only way to writ
 Feel free to contact me at <mailto:hermann.kan@proton.com>
 
 - Website - [my website](https://www.hkf.com)
-- Github - [@yourusername](https://www.github.com/profile/)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [@hermkan](https://github.com/hermkan)
 
 ## 🔥 P.S
 
