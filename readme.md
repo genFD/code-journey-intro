@@ -26,15 +26,15 @@ _A word of caution_: This is not intended to be the best or the only way to writ
 
 ## Table of contents
 
-- [🥋 Language mastery](# 01-language-mastery)
-- [🌿 Git and Github](# 02-git-and-github)
-- [💻 Building UI](# 03-building-ui)
-- [📟 Terminal Usage](# 04-terminal-usage)
-- [🛰️ Creating API](# 05-creating-API)
-- [🛢️ Databases](# 06-databases)
-- [🐬 Docker](# 07-docker)
-- [☁ Aws & Cloud computing](# 08-AWS-and-cloud-computing)
-- [🧪 Testing](# 09-testing)
+- [🥋 Language mastery]
+- [🌿 Git and Github]
+- [💻 Building UI]
+- [📟 Terminal Usage]
+- [🛰️ Creating API]
+- [🛢️ Databases]
+- [🐬 Docker]
+- [☁ Aws & Cloud computing]
+- [🧪 Testing]
 - [🏢 Production-grade fullStack Application V1 ](# 10-Production-grade fullStack Application V1 )
 
 ## 🍺 Contributing
