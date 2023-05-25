@@ -32,10 +32,13 @@ _A word of caution_: This is not intended to be the best or the only way to writ
 - [📟 Terminal Usage]
 - [🛰️ Creating API]
 - [🛢️ Databases]
+- [🔒 Security, Infrastructure and scalability]
 - [🐬 Docker]
 - [☁ Aws & Cloud computing]
 - [🧪 Testing]
-- [🏢 Production-grade fullStack Application V1 ](# 10-Production-grade fullStack Application V1 )
+- [🏢 Production-grade fullStack Application V1]
+  **Bonus**:
+- [🎤 Interview prep]
 
 ## 🍺 Contributing
 
