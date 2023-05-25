@@ -37,8 +37,7 @@ _A word of caution_: This is not intended to be the best or the only way to writ
 - [☁ Aws & Cloud computing]
 - [🧪 Testing]
 - [🏢 Production-grade fullStack Application V1]
-  **Bonus**:
-- [🎤 Interview prep]
+- [🎤 Interview prep] **Bonus!**
 
 ## 🍺 Contributing
 
