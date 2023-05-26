@@ -1,53 +1,71 @@
 # Types
 
+![Types](JS_graphic.svg)
+
 ## Table of contents
 
-- [`📖` Resources](#resources)
-- [`📚` Other Useful resources](#other-useful-resources)
-- [`📝` Notes](#notes)
-  - [`🧱` Primitive Types](#primitive-types)
-    - [`⎨⎬` Object Subtypes](#object-subtypes)
-  - [`⎨⎬` Fundamentals Objects](#fundamentals-objects)
-  - [`🔄` Types coercion](#types-coercion)
-  - [`⩵` Equality](#equality)
+- [📖 Resources](#resources)
+- [📚 Other Useful resources](#other-useful-resources)
+- [🎯 Learning Objectives](#learning-objectives)
+- [📝 Notes](#notes)
+  - [🧱 Primitive Types](#primitive-types)
+  - [⎨⎬ Object](#object)
+  - [⎨⎬ Fundamentals Objects](#fundamentals-objects)
+  - [🔄 Types coercion](#types-coercion)
+  - [⩵ Equality](#equality)
 
 ## Resources
 
-TODO: Add resources
+> ☞ TODO: Add resources links
 
 ## Other Useful resources
 
-TODO: Add resources
+> ☞ TODO: Add resources links
+
+## Learning Objectives
 
 ## Notes
 
 ### Primitive Types
 
-There are 7 kinds of data (types) that we use in JavaScript:
+JavaScript uses seven primitive data types:
 
-| Types       | Definition                                                                                                                                                                                                                                                                                                                                                                                                                                     | Examples                                              |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| _string_    | characters wrapped in single or double quotes                                                                                                                                                                                                                                                                                                                                                                                                  | `"Sample String"`                                     |
-| _number_    | any number without quotes                                                                                                                                                                                                                                                                                                                                                                                                                      | `23.8879`                                             |
-| _boolean_   | the value true or false                                                                                                                                                                                                                                                                                                                                                                                                                        | `true`                                                |
-| _null_      | ☞ `TODO: update definition`                                                                                                                                                                                                                                                                                                                                                                                                                    | ~                                                     |
-| _symbol_    | ☞ `TODO: update definition`                                                                                                                                                                                                                                                                                                                                                                                                                    | ~                                                     |
-| _undefined_ | ☞ `TODO: update definition`                                                                                                                                                                                                                                                                                                                                                                                                                    | ~                                                     |
-| _object_    | data structure used to store information (properties) or methods which perform actions. We can access properties by using the . dot operator. 'Hello'.length or 'hello'.toUpperCase(). We're able to build our own objects but there are other objects built into JavaScript. For example, JavaScript has the built-in `Math` object that has collections of methods and properties to perform more complex mathematical operations and more.. | `{id: 1, sayHello: function(){ console.log('Hello')}` |
+| Data Type   | Description                                                                                                                         | Example             |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| _string_    | Any grouping of characters wrapped in single or double quotes, fancy word for `text`                                                | `"Sample String"`   |
+| _number_    | Any number, including numbers with decimals                                                                                         | `1, -2, 99, 3.14.`  |
+| _bigint_    | Any number, greater than 253-1 or less than -(253-1) with n appended to the number                                                  | `1234567890123456n` |
+| _boolean_   | The value true or false                                                                                                             | `true`              |
+| _null_      | Type that represents the **intentional absence of a value**, and is represented by the keyword `null`.                              | `null`              |
+| _symbol_    | Newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now. | ~                   |
+| _undefined_ | Type that also represents the absence of a value though. this type is denoted by the keyword `undefined`                            | `undefined`         |
 
-#### Object Subtypes
+### Object
 
-- `function`
-- `array`
+A Javascript object is used to represent a collection of data
+
+it can be created with the Object wrapper
+
+```js
+const myObject = new Object()
+// output {}
+```
+
+or with an object literal:
+
+```js
+const person = {}
+```
+
+`function` and `array` are considered object _subtypes_
 
 ### Fundamentals Objects
 
-(aka native function)
+(aka native functions)
 
-> ☞ `TODO: update definition`
 > These are objects representation of certain types. It's not necessary to use them.
 
-Should be used the `new` keyword to construct :
+Should be used with the `new` keyword to construct :
 
 - `Object`
 - `Array`
@@ -68,7 +86,7 @@ Not recommended to use the `new` keyword to construct
 - `Number()`
 - `Boolean()`
 
-You should use them as functions, because they coerced any value to that respective primitive type.
+Should use them as functions, because they coerce any value to the respective primitive type.
 
 ```js
 const testScore = String(85)
@@ -78,7 +96,7 @@ date.toUTCString()
 
 ### Types coercion
 
-`🎯` Goal : Raising awareness on certain type coercion corner cases that might cause bugs
+🎯 Goal : Raising awareness on certain type coercion corner cases that might cause bugs
 
 #### String()
 

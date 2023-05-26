@@ -2,6 +2,25 @@
 
 ![Variables](variable-boxes.svg)
 
+## Table of contents
+
+- [📖 Resources](#resources)
+- [📚 Other Useful resources](#other-useful-resources)
+- [🎯 Learning Objectives](#learning-objectives)
+- [📝 Notes](#notes)
+
+## Resources
+
+> ☞ TODO: Add resources links
+
+## Other Useful resources
+
+> ☞ TODO: Add resources links
+
+## Learning Objectives
+
+## Notes
+
 A variable is a container for a value.
 
 Variables allow developers to label and store data in the computer memory, so they can reference or get that information later on in the program.
@@ -14,9 +33,8 @@ Prior to ES6, the only way to create (declare) a variable was to use the `var` k
 var myName = 'Arya'
 ```
 
-ℹ️ About the assignment operator
-
-`=` is the assignment operator. It assigns the value ('Arya') to the variable (myName).
+> ℹ️ _About the assignment operator
+> `=` is the assignment operator. It assigns the value ('Arya') to the variable (myName)_.
 
 _technical communication_ :
 
@@ -32,14 +50,12 @@ accountBalance = 1000000
 console.log(accountBalance) // Output: 1000000
 ```
 
-ℹ️ About (console.log)
+> ℹ️ About (console.log)
+> _Much of the work the computer does with our code is invisible to us by default. If we want to see things appear on our screen, we can print, or log, to our console (a panel that displays messages) directly_.
+> _the `console` keyword followed by `.log()` is the way we print, or log, to the console._
 
-Much of the work the computer does with our code is invisible to us by default. If we want to see things appear on our screen, we can print, or log, to our console (a panel that displays messages) directly.
-the `console` keyword followed by `.log()` is the way we print, or log, to the console.
-
-ℹ️ About (variable reference)
-
-We can reference a variable in our program by using the variable name: console.log(accountBalance).
+> ℹ️ _About (variable reference)
+> We can reference a variable in our program by using the variable name: console.log(accountBalance)._
 
 **⚠️ IMPORTANT ⚠️: if we don’t assign a value to a variable declared using the `let` keyword it will be automatically initialized with a value of `undefined`:**
 
