@@ -28,7 +28,7 @@ _These notes might be incomplete and/or contain mistakes._
 
 _I'm maintaining it in my spare time, so if you find mistakes, please help keep this repo up-to-date by contributing._
 
-_Also, this is not intended to be a programming course. As mention above, it's a collection of notes from actual programming courses I've been taking and projects I've built. If you decide to follow this "guide" you are not forced to do everything exactly as it is shown here, decide what works best for you and stay consistent with your style._
+_Also, this is not intended to be a programming course. As mentionned above, it's a collection of notes from actual programming courses I've been taking and projects I've built. If you decide to follow this "guide" you are not forced to do everything exactly as it is shown here, decide what works best for you and stay consistent with your style._
 
 _Thanks!_
 

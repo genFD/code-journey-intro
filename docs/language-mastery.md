@@ -1,9 +1,19 @@
-# 💻 Language mastery
+# 💻 `Language mastery`
 
-## 🎯 Learning Objectives
+## 🎯 `Learning Objectives`
 
 1. JavaScript
 2. TypeScript
+
+## `Table of contents`
+
+### `Javascript`
+
+- [🥡 Variables](/01-language-mastery/JS/concepts/00-foundations/00-Intro/variables.md)
+
+- [🔮 Types](/01-language-mastery/JS/concepts/00-foundations/01-types/types.md)
+
+### `Typescript`
 
 ## 💼 Projects
 
