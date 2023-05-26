@@ -1,4 +1,4 @@
-# Language Mastery
+# 🔒 Security, Infrastructure and scalability
 
 ## 🎯 Learning Objectives
 

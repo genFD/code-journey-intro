@@ -1,12 +1,12 @@
-# From mini JS/TS projects to a production-grade full stack application
+# `From mini JS/TS projects to a production-grade full stack application`
 
-## `🏁` Welcome
+## 🏁 `Welcome`
 
 Thanks for checking this repo.
 
 This repo attempts to showcase my journey from learning programming concepts and building simple and small projects to writing a production-grade full-stack application, using some of the best resources out there.
 
-`🎯` The goal is to serve as a collection of notes from courses I've been taking and projects I've built that can be referenced in order to :
+🎯 The goal is to serve as a collection of notes from courses I've been taking and projects I've built that can be referenced in order to :
 
 - Review of a concept
 - Look up a solution to a problem
@@ -20,7 +20,7 @@ Feel free to explore the codebase to get the most value out of the repo.
 
 I'll do my best to blog about my experience building each project, by writing about the workflow, technical choices, and talking through the code.
 
-## ⚠️ Disclaimer
+## ⚠️ `Disclaimer`
 
 _A word of caution_:
 
@@ -32,22 +32,22 @@ _Also, this is not intended to be a programming course. As mention above, it's a
 
 _Thanks!_
 
-## Table of contents
+## `Table of contents`
 
-- [`🥋` Language mastery]
-- [`🌿` Git and Github]
-- [`💻` Building UI]
-- [`📟` Terminal Usage]
-- [`🛰️` Creating API]
-- [`🛢️` Databases]
-- [`🔒` Security, Infrastructure and scalability]
-- [`🐬` Docker]
-- [`☁` Aws & Cloud computing]
-- [`🧪` Testing]
-- [`🏢` Production-grade fullStack Application V1]
-- [`🎤` Interview prep] **Bonus!**
+- [💻 Language mastery](docs/language-mastery.md)
+- [🌿 Git and Github](docs/git-github.md)
+- [💻 Building UI](docs/building-ui.md)
+- [📟 Terminal Usage](docs/terminal-usage.md)
+- [🛰️ Creating API](docs/creating-api.md)
+- [🛢️ Databases](docs/databases.md)
+- [🔒 Security, Infrastructure and scalability](docs/security-infra-scalability.md)
+- [🐬 Docker](docs/docker.md)
+- [☁ Aws & Cloud computing](docs/cloud-computing.md)
+- [🧪 Testing](docs/testing.md)
+- [🏢 Production-grade fullStack Application V1](docs/production-grade-app.md)
+- [🎤 Interview prep](docs/interview-prep.md) **Bonus!**
 
-## `🍺` Contributing
+## 🍺 `Contributing`
 
 - Please give me a :star: on Github, it **helps**!
 - You are more than welcome to submit a different solution to one of the projects or submit a project around a topic or a concept of your interest
@@ -59,13 +59,13 @@ _Thanks!_
 4. Test your changes
 5. Push your branch and open a Pull Request
 
-## `✏️` Author
+## ✏️ `Author`
 
 Feel free to contact me at <mailto:hermann.kan@proton.com>
 
 - Website - [my website](https://www.hkf.com)
 - Github - [@hermkan](https://github.com/hermkan)
 
-## `🔥` P.S
+## 🔥 `P.S`
 
 **Have fun !** 🚀

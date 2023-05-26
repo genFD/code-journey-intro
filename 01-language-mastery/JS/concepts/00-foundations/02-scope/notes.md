@@ -1,7 +1,5 @@
 # Scope
 
-## Table of contents
-
 - [📖 Resources](#resources)
 - [📚 Other Useful resources](#other-useful-resources)
 - [📝 Notes](#notes)

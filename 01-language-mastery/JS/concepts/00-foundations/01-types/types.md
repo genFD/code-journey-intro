@@ -2,8 +2,6 @@
 
 ![Types](JS_graphic.svg)
 
-## Table of contents
-
 - [📖 Resources](#resources)
 - [📚 Other Useful resources](#other-useful-resources)
 - [🎯 Learning Objectives](#learning-objectives)
