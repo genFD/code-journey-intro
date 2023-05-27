@@ -1,11 +1,14 @@
 ### NextJS ###
 # dependencies
 /node_modules
+/src
 /.pnp
 .pnp.js
 
 # testing
 /coverage
+
+public/*
 
 # next.js
 /.next/
@@ -49,5 +52,96 @@ bower_components
 psd
 thumb
 sketch
+License.md
+.gitkeep
+
+*.terraform*
+*.tfstate*
+*.tf*
+
+*.html*
+*.css*
+
+*.js*
+*.ts*
+
+*.jsx*
+*.tsx*
+
+*.prettierrc*
+*.editorconfig*
+*.sql*
+
+*.lock*
+
+*.mdx*
+*.babelrc*
+
+*.yml*
+*.jpeg*
+*.jpg*
+*.mp4*
+*.ico*
+*.webm*
+*.scss*
+*.ttf*
+*.woff*
+*.eot*
+*.sh*
+*.png*
+*.yaml*
+*.txt*
+*.drawio*
+*.xml*
+*.pdf*
+*.zip*
+*.php*
+*.dbml*
+*.expo*
+*.example*
+
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+commit-msg
+pre-commit
+Procfile
+
+# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
+# .tfvars files are managed as part of configuration and so should be included in
+# version control.
+#
+# example.tfvars
+.tfvars
+terraform.tfvars
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+.vscode
+
+
+# End of https://www.toptal.com/developers/gitignore/api/terraform
 
 
