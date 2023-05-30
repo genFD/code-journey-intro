@@ -34,7 +34,8 @@ _Thanks!_
 
 ## `Table of contents`
 
-- [💻 Language mastery](docs/language-mastery.md)
+- [>\_ 🎨 HTML & CSS](docs/html-css.md)
+- [🥋 Language mastery](docs/language-mastery.md)
 - [🌿 Git and Github](docs/git-github.md)
 - [💻 Building UI](docs/building-ui.md)
 - [📟 Terminal Usage](docs/terminal-usage.md)
