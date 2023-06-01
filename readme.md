@@ -12,7 +12,7 @@ This repo attempts to showcase my journey from learning programming concepts and
 - Look up a solution to a problem
 - Get an idea of a well-structured project and more...
 
-It may also supposed to serve as a "guide" for learning how to code.
+It may also serve as a "guide" for learning how to code.
 
 **If you want to follow this "guide", please be sure to cover the basic concepts first. Only move on to the projects section once you're happy you've understood the topic you're working on.**
 
