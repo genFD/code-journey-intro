@@ -2,6 +2,7 @@
 # dependencies
 /node_modules
 /src
+
 /.pnp
 .pnp.js
 
@@ -62,8 +63,8 @@ License.md
 *.html*
 *.css*
 
-*.js*
-*.ts*
+# *.js*
+# *.ts*
 
 *.jsx*
 *.tsx*
