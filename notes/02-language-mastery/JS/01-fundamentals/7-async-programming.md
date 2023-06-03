@@ -1,7 +1,10 @@
 # Key Takeaways
 
 1. Promises
-2. Async-await
+
+2. Async-await :
+
+   -
 
 ## Promises
 
