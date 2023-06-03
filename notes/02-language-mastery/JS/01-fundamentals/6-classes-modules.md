@@ -8,11 +8,11 @@
 - [📝 Notes](#notes)
   - [Classes](#classes)
   - [Modules](#modules)
-  - [Runtime Environment](#runtime-environment)
-  - [Node JS module exports](#nodejs-moduleexports)
-  - [Node JS Require](#nodejs-require)
-  - [ES6 Import](#es6-import-statement)
-  - [ES6 Export](#es6-export-statement)
+    - [Runtime Environment](#runtime-environment)
+    - [Node JS module exports](#nodejs-moduleexports)
+    - [Node JS Require](#nodejs-require)
+    - [ES6 Import](#es6-import-statement)
+    - [ES6 Export](#es6-export-statement)
 
 ## Resources
 
@@ -27,6 +27,8 @@
 ## Notes
 
 ## `Classes`
+
+**[⬆ back to top](#table-of-contents)**
 
 - Classes are templates for objects
 
@@ -71,9 +73,13 @@ const today = Date.now()
 
 ## `Modules`
 
+**[⬆ back to top](#table-of-contents)**
+
 **Note : The words `module` and `file` are often used interchangably**
 
 ### Runtime environment
+
+**[⬆ back to top](#table-of-contents)**
 
 A runtime environment is where your program will be executed. JavaScript code may be executed in one of two runtime environments:
 
@@ -87,6 +93,8 @@ In each of these environments, different data values and functions are available
 - Back-end JavaScript applications are executed in the Node runtime environment and have access to the file system, databases, and networks attached to the server.
 
 ### `Node.js module.exports`
+
+**[⬆ back to top](#table-of-contents)**
 
 - How to use the `Node.js module.exports` object to export code from a file ?
 
@@ -108,6 +116,8 @@ module.exports.fahrenheitToCelsius = function fahrenheit {
 2. a new function expression is declared and assigned to `module.exports.fahrenheitToCelsius`.
 
 ### `Node.js require()`
+
+**[⬆ back to top](#table-of-contents)**
 
 - How to use the `Node.js require()` function to import code from another module ?
 
@@ -134,6 +144,8 @@ const fahrenheitValue = celsiusToFahrenheit(celsiusInput)
 ```
 
 ### `ES6 export statement`
+
+**[⬆ back to top](#table-of-contents)**
 
 - How to use the ES6 export statement to export code from a file ?
 
@@ -180,6 +192,8 @@ export default resources
 ```
 
 ### `ES6 import statement`
+
+**[⬆ back to top](#table-of-contents)**
 
 - How to use the ES6 import statement to import code from another module ?
 

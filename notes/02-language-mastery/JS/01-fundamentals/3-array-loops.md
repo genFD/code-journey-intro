@@ -23,6 +23,8 @@
 
 ## Arrays
 
+**[⬆ back to top](#table-of-contents)**
+
 - Arrays are lists that store data in JavaScript.
 
 - Each item inside of an array is at a numbered position, or index, starting at 0.
@@ -67,6 +69,8 @@ console.log(myArray) // output : ['item 0', 'item 1', 'item 2']
 ```
 
 ## Loops
+
+**[⬆ back to top](#table-of-contents)**
 
 - it's a programming tool that repeats a set of `instructions` until a specified condition, called a `stopping condition` is reached.
 

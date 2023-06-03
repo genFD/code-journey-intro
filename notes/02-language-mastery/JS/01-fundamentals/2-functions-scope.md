@@ -23,6 +23,8 @@
 
 ### Functions
 
+**[⬆ back to top](#table-of-contents)**
+
 It’s important to be aware of the differences between function expressions, arrow functions, and function declarations.
 
 - A function declaration
@@ -50,6 +52,8 @@ const greet = () => console.log(hello)
 ```
 
 ### Scope
+
+**[⬆ back to top](#table-of-contents)**
 
 - Scope refers to where variables can be accessed throughout the program, and is determined by where and how they are declared.
 

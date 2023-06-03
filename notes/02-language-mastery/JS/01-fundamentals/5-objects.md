@@ -43,7 +43,9 @@
    - Destructuring assignment
    - Built-in Object methods
 
-## Object fundamentals
+## `Object fundamentals`
+
+**[⬆ back to top](#table-of-contents)**
 
 - Objects store collections of key-value pairs.
 
@@ -162,7 +164,9 @@ for (let crewMember in spaceship.crew) {
 }
 ```
 
-## Advanced Objects
+## `Advanced Objects`
+
+**[⬆ back to top](#table-of-contents)**
 
 - The object that a method belongs to is called the `calling object`.
 

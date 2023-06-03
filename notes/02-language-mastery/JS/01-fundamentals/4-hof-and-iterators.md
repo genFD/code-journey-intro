@@ -30,6 +30,8 @@
 
 ## `Higher Order Functions`
 
+**[⬆ back to top](#table-of-contents)**
+
 We can work with functions the same way we work with any other type of data, including reassigning them to new variables.
 
 ```js
@@ -71,9 +73,13 @@ higherOrderFunc(() => {
 
 ## `Iterators`
 
+**[⬆ back to top](#table-of-contents)**
+
 🎯 learning goal : learn the syntax for these methods, their return values, how to use the documentation to understand them, and how to choose the right iterator method for a given task.
 
 ### `.forEach()`
+
+**[⬆ back to top](#table-of-contents)**
 
 is used to execute the same code on every element in an array but does not change the array and `returns undefined`.
 
@@ -82,6 +88,8 @@ groceries.forEach((groceryItem) => console.log(groceryItem))
 ```
 
 ### `.map()`
+
+**[⬆ back to top](#table-of-contents)**
 
 **executes** the same code on every element in an array and **returns a new array with the updated elements**.
 
@@ -97,6 +105,8 @@ console.log(bigNumbers)
 ```
 
 ### `.filter()`
+
+**[⬆ back to top](#table-of-contents)**
 
 checks every element in an array to see if it satistfies certain condition and returns a new array with the elements that return truthy
 
@@ -114,9 +124,13 @@ console.log(shortWords) // Output: ['chair', 'music', 'brick', 'pen', 'door']
 
 ### `.findIndex()`
 
+**[⬆ back to top](#table-of-contents)**
+
 returns the index of the first element of an array that satisfies a condition in the callback function. It returns -1 if none of the elements in the array satisfies the condition.
 
 ### `.reduce()`
+
+**[⬆ back to top](#table-of-contents)**
 
 iterates through an array and takes the values of the elements and returns a single value.
 

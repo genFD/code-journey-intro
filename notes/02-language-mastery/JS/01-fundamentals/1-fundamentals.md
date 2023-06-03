@@ -23,11 +23,15 @@
 
 ## Notes
 
-### Data Types
+### `Data Types`
+
+**[⬆ back to top](#table-of-contents)**
 
 - There are 7 fundamental data types in JavaScript: strings, numbers, booleans, null, undefined, symbol, and object.
 
-### Variables
+### `Variables`
+
+**[⬆ back to top](#table-of-contents)**
 
 - Variables hold reusable data in a program and associate it with a name
 
@@ -74,6 +78,8 @@ console.log(`I own a pet ${myPet}.`)
 
 ### ES6
 
+**[⬆ back to top](#table-of-contents)**
+
 **TLDR** : To fully distinguish the difference between JavaScript and ECMAScript: if you want to create an app or program you can use JavaScript — if you want to create a new scripting language you can follow the guidelines in ECMAScript
 
 - The company Netscape Communications introduced `JavaScript` as a scripting language in 1995 for web designers and programmers to interact with web pages.
@@ -112,6 +118,8 @@ const greeting = () => console.log('Hello World')
 ```
 
 ### Conditionals
+
+**[⬆ back to top](#table-of-contents)**
 
 The general purpose of a conditional statement is to evaluate code as either true or false.
 
