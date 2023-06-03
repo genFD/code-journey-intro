@@ -1,9 +1,27 @@
-# Key Takeaways
+# Function - Scope
 
-1. Functions
-2. Scope
+## Table of contents
 
-## Functions
+- [📖 Resources](#resources)
+- [📚 Other Useful resources](#other-useful-resources)
+- [🎯 Learning Objectives](#learning-objectives)
+- [📝 Notes](#notes)
+  - [Function](#functions)
+  - [Scope](#scope)
+
+## Resources
+
+> ☞ TODO: Add resources links
+
+## Other Useful resources
+
+> ☞ TODO: Add resources links
+
+## Learning Objectives
+
+## Notes
+
+### Functions
 
 It’s important to be aware of the differences between function expressions, arrow functions, and function declarations.
 
@@ -31,7 +49,7 @@ const greet = function () {
 const greet = () => console.log(hello)
 ```
 
-## Scope
+### Scope
 
 - Scope refers to where variables can be accessed throughout the program, and is determined by where and how they are declared.
 
@@ -39,9 +57,9 @@ const greet = () => console.log(hello)
 
 - Global scope refers to the context within which variables are accessible to every part of the program.
 
-### Global variables are variables that exist within global scope
+- Global variables are variables that exist within global scope
 
-Variables that are accessible to any part of the program.
+- Variables that are accessible to any part of the program.
 
 ```js
 const input = 8
@@ -57,13 +75,13 @@ There are three global variables in the code above : `input`, `controlVal`, `mul
 
 - Block scope refers to the context within which variables are accessible only within the block they are defined.
 
-### Local variables are variables that exist within block scope
+- Local variables are variables that exist within block scope
 
 Variable that is defined within a block and only available inside the block
 
 - Global namespace is the space in our code that contains globally scoped information.
 
-### Scope pollution is when too many variables exist in a namespace or variable names are reused
+- Scope pollution is when too many variables exist in a namespace or variable names are reused
 
 --> defining variables in the block scope is preferable because
 global scope can make things like variable collision (using the same variable for two different purposes) more common.

@@ -1,4 +1,25 @@
-# Key Takeaways
+# OBJECTS
+
+## Table of contents
+
+- [📖 Resources](#resources)
+- [📚 Other Useful resources](#other-useful-resources)
+- [🎯 Learning Objectives](#learning-objectives)
+- [📝 Notes](#notes)
+  - [Fundamentals](#object-fundamentals)
+  - [Advanced Objects](#advanced-objects)
+
+## Resources
+
+> ☞ TODO: Add resources links
+
+## Other Useful resources
+
+> ☞ TODO: Add resources links
+
+## Learning Objectives
+
+## Notes
 
 1. Objects fundamentals
 

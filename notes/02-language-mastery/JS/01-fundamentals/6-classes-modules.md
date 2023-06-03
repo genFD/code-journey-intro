@@ -1,34 +1,57 @@
-# Key Takeaways
+# CLASSES - MODULES
 
-1. Classes
-2. Modules
+## Table of contents
 
-## Classes
+- [📖 Resources](#resources)
+- [📚 Other Useful resources](#other-useful-resources)
+- [🎯 Learning Objectives](#learning-objectives)
+- [📝 Notes](#notes)
+  - [Classes](#classes)
+  - [Modules](#modules)
+  - [Runtime Environment](#runtime-environment)
+  - [Node JS module exports](#nodejs-moduleexports)
+  - [Node JS Require](#nodejs-require)
+  - [ES6 Import](#es6-import-statement)
+  - [ES6 Export](#es6-export-statement)
 
-### Classes are templates for objects
+## Resources
+
+> ☞ TODO: Add resources links
+
+## Other Useful resources
+
+> ☞ TODO: Add resources links
+
+## Learning Objectives
+
+## Notes
+
+## `Classes`
+
+- Classes are templates for objects
 
 Classes make it easy to create multiple objects that share property names and methods.
 
 Each instance of a class has the same properties, getters, setters, and methods. Only the property values change.
 
-### Javascript calls a constructor method when we create a new instance of a class
+- Javascript calls a constructor method when we create a new instance of a class
 
 It's called to set the property values for each instance.
 -> Objects have properties -> properties needs values
 
-### Inheritance is when we create a parent class with properties and methods that we can extend to child classes
+- Inheritance is when we create a parent class with properties and methods that we can extend to child classes
 
 The purpose of inheritance is : Sharing data and methods between objects.
 
-### We use the `extends` keyword to create a subclass
+- We use the `extends` keyword to create a subclass
 
 the subclass automatically inherits the parent methods, getters and setters, you need to use the `super` keyword to set the parent properties.
 
-### The `super` keyword calls the `constructor()` of a parent class
+- The `super` keyword calls the `constructor()` of a parent class
 
 In the subclass constructor method, `super` should be called before `this` otherwise Javascript throws an error.
 
-### `Static methods` are called on the class, but not on instances of the class
+- `Static methods` are called on the class, but not on instances of the class
 
 We use static methods when we want a class to have methods that aren’t available in individual instances, but that you can call directly from the class.
 
@@ -46,7 +69,7 @@ const myDate = new Date()
 const today = Date.now()
 ```
 
-## Modules
+## `Modules`
 
 **Note : The words `module` and `file` are often used interchangably**
 
@@ -63,7 +86,9 @@ In each of these environments, different data values and functions are available
 
 - Back-end JavaScript applications are executed in the Node runtime environment and have access to the file system, databases, and networks attached to the server.
 
-### How to use the `Node.js module.exports` object to export code from a file ?
+### `Node.js module.exports`
+
+- How to use the `Node.js module.exports` object to export code from a file ?
 
 ```js
 /* converters.js */
@@ -82,7 +107,9 @@ module.exports.fahrenheitToCelsius = function fahrenheit {
 
 2. a new function expression is declared and assigned to `module.exports.fahrenheitToCelsius`.
 
-### How to use the `Node.js require()` function to import code from another module ?
+### `Node.js require()`
+
+- How to use the `Node.js require()` function to import code from another module ?
 
 `The require()` function accepts a string as an argument. That string provides the `file path` to the module you would like to import.
 
@@ -106,7 +133,9 @@ const celsiusInput = process.argv[2]
 const fahrenheitValue = celsiusToFahrenheit(celsiusInput)
 ```
 
-### How to use the ES6 export statement to export code from a file ?
+### `ES6 export statement`
+
+- How to use the ES6 export statement to export code from a file ?
 
 - named export syntax :
 
@@ -150,7 +179,9 @@ const resources = {
 export default resources
 ```
 
-### How to use the ES6 import statement to import code from another module ?
+### `ES6 import statement`
+
+- How to use the ES6 import statement to import code from another module ?
 
 - The ES6 syntax for importing `named resources` from modules is similar to the export syntax:
 

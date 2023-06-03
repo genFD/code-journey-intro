@@ -1,28 +1,46 @@
-# Key Takeaways
+# Fundamentals
 
-1. Data types
-2. Variables
-3. ES6
-4. Conditionals
+## Table of contents
 
-## Data Types
+- [📖 Resources](#resources)
+- [📚 Other Useful resources](#other-useful-resources)
+- [🎯 Learning Objectives](#learning-objectives)
+- [📝 Notes](#notes)
+  - [Data types](#data-types)
+  - [Variables](#variables)
+  - [ES6](#es6)
+  - [Conditionals](#conditionals)
+
+## Resources
+
+> ☞ TODO: Add resources links
+
+## Other Useful resources
+
+> ☞ TODO: Add resources links
+
+## Learning Objectives
+
+## Notes
+
+### Data Types
 
 - There are 7 fundamental data types in JavaScript: strings, numbers, booleans, null, undefined, symbol, and object.
 
-## Variables
+### Variables
 
 - Variables hold reusable data in a program and associate it with a name
 
 - The var keyword is used in pre-ES6 versions of JS
 
-### `let` is the preferred way to declare a variable when it can be reassigned, and `const` is the preferred way to declare a variable with a constant value
+- let`is the preferred way to declare a variable when it can be reassigned, and`const` is the preferred way to declare a variable with a constant value
 
 - let variables can be changed (reassigned ) after they’re created.
 - const variables cannot be changed after they’re created.
 
 - Variables that have not been initialized store the primitive data type `undefined`
 
-### Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable
+- Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable
 
 ```js
 let w = 4
@@ -40,9 +58,9 @@ w += 1
 console.log(w) // Output: 5
 ```
 
-+= will add 1 to `w` and then reassign the value of w to that result.
+`+=` will add 1 to `w` and then reassign the value of w to that result.
 
-### In ES6, template literals use backticks ` and ${} to interpolate values into a string
+- In ES6, template literals use backticks ` and ${} to interpolate values into a string
 
 ```js
 const myPet = 'armadillo'
@@ -51,9 +69,10 @@ console.log(`I own a pet ${myPet}.`)
 ```
 
 - String concatenation is the process of joining strings together.
+
 - String interpolation is the process of inserting, or interpolating, variables into strings using template literals.
 
-## ES6
+### ES6
 
 **TLDR** : To fully distinguish the difference between JavaScript and ECMAScript: if you want to create an app or program you can use JavaScript — if you want to create a new scripting language you can follow the guidelines in ECMAScript
 
@@ -92,9 +111,9 @@ With ES6 arrow functions, we can transform the expression above into:
 const greeting = () => console.log('Hello World')
 ```
 
-## Conditionals
+### Conditionals
 
-- The general purpose of a conditional statement is to evaluate code as either true or false
+The general purpose of a conditional statement is to evaluate code as either true or false.
 
 - There are three logical operators:
 
@@ -157,3 +176,7 @@ isNightTime
   ? console.log('Turn on the lights!')
   : console.log('Turn off the lights!')
 ```
+
+-> If the condition evaluates to true, the first expression executes
+
+-> If the condition evaluates to false, the second expression executes

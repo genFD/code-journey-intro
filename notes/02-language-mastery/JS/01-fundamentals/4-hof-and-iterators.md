@@ -1,20 +1,34 @@
-# Key Takeaways
+# HOF - ITERATORS
 
-1. HOF : Higher-Order Functions
+## Table of contents
 
-   - Functions as data
-   - Functions as parameters
+- [📖 Resources](#resources)
+- [📚 Other Useful resources](#other-useful-resources)
+- [🎯 Learning Objectives](#learning-objectives)
+- [📝 Notes](#notes)
 
-2. Iterators :
+  - [HOF](#higher-order-functions)
 
-   - forEach()
-   - map()
-   - filter()
-   - findIndex()
-   - reduce()
-   - Choose the right iterator
+  - [Iterators](#iterators)
+    - [forEach](#foreach)
+    - [map](#map)
+    - [filter](#filter)
+    - [findindex](#findindex)
+    - [reduce](#reduce)
 
-## Higher-Order Functions
+## Resources
+
+> ☞ TODO: Add resources links
+
+## Other Useful resources
+
+> ☞ TODO: Add resources links
+
+## Learning Objectives
+
+## Notes
+
+## `Higher Order Functions`
 
 We can work with functions the same way we work with any other type of data, including reassigning them to new variables.
 
@@ -55,17 +69,21 @@ higherOrderFunc(() => {
 
 - A higher-order function is a function that either accepts functions as parameters, returns a function, or both.
 
-## Iterators
+## `Iterators`
 
 🎯 learning goal : learn the syntax for these methods, their return values, how to use the documentation to understand them, and how to choose the right iterator method for a given task.
 
-- `.forEach()` is used to execute the same code on every element in an array but does not change the array and `returns undefined`.
+### `.forEach()`
+
+is used to execute the same code on every element in an array but does not change the array and `returns undefined`.
 
 ```js
 groceries.forEach((groceryItem) => console.log(groceryItem))
 ```
 
-- `.map()` **executes** the same code on every element in an array and **returns a new array with the updated elements**.
+### `.map()`
+
+**executes** the same code on every element in an array and **returns a new array with the updated elements**.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -78,7 +96,9 @@ console.log(bigNumbers)
 // output : [10,20,30,40,50]
 ```
 
-- `.filter()` checks every element in an array to see if it satistfies certain condition and returns a new array with the elements that return truthy
+### `.filter()`
+
+checks every element in an array to see if it satistfies certain condition and returns a new array with the elements that return truthy
 
 ```js
 const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door']
@@ -92,9 +112,13 @@ console.log(shortWords) // Output: ['chair', 'music', 'brick', 'pen', 'door']
 // words was not mutated, i.e. changed, and shortWords is a new array
 ```
 
-- `.findIndex()` returns the index of the first element of an array that satisfies a condition in the callback function. It returns -1 if none of the elements in the array satisfies the condition.
+### `.findIndex()`
 
-- `.reduce()` iterates through an array and takes the values of the elements and returns a single value.
+returns the index of the first element of an array that satisfies a condition in the callback function. It returns -1 if none of the elements in the array satisfies the condition.
+
+### `.reduce()`
+
+iterates through an array and takes the values of the elements and returns a single value.
 
 ```js
 const numbers = [1, 2, 4, 10]

@@ -8,7 +8,7 @@ This repo attempts to showcase my journey from learning programming concepts and
 
 🎯 The goal is to serve as a collection of notes from courses I've been taking and projects I've built that can be referenced in order to :
 
-- Review of a concept
+- Review a concept
 - Look up a solution to a problem
 - Get an idea of a well-structured project and more...
 
@@ -34,18 +34,18 @@ _Thanks!_
 
 ## `Table of contents`
 
-- [>\_ 🎨 HTML & CSS](docs/html-css.md)
-- [🥋 Language mastery](docs/language-mastery.md)
-- [🌿 Git and Github](docs/git-github.md)
-- [💻 Building UI](docs/building-ui.md)
-- [📟 Terminal Usage](docs/terminal-usage.md)
-- [🛰️ Creating API](docs/creating-api.md)
-- [🛢️ Databases](docs/databases.md)
-- [🔒 Security, Infrastructure and scalability](docs/security-infra-scalability.md)
-- [🐬 Docker](docs/docker.md)
-- [☁ Aws & Cloud computing](docs/cloud-computing.md)
+- [>\_ 🎨 HTML & CSS](docs/1-html-css.md)
+- [🥋 Language mastery](docs/2-language-mastery.md)
+- [🌿 Git and Github](docs/2-git-github.md)
+- [💻 Building UI](docs/3-building-ui.md)
+- [📟 Terminal Usage](docs/4-terminal-usage.md)
+- [🛰️ Creating API](docs/5-creating-api.md)
+- [🛢️ Databases](docs/6-databases.md)
+- [🔒 Security, Infrastructure and scalability](docs/9-security-infra-scalability.md)
+- [🐬 Docker](docs/7-docker.md)
+- [☁ Aws & Cloud computing](docs/8-cloud-computing.md)
 - [🧪 Testing](docs/testing.md)
-- [🏢 Production-grade fullStack Application V1](docs/production-grade-app.md)
+- [🏢 Production-grade fullStack Application V1](docs/10-production-grade-app.md)
 - [🎤 Interview prep](docs/interview-prep.md) **Bonus!**
 
 ## 🍺 `Contributing`
