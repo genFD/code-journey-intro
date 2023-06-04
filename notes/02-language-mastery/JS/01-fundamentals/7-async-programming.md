@@ -11,7 +11,6 @@
 
     - [Definition](#whats-a-promise)
     - [Promise Object](#constructing-a-promise-object)
-    - [Node setTimeOut](#the-node-settimeout-function)
     - [Consuming promises](#consuming-promises)
     - [Success And Failure](#success-and-failure-callback-functions)
     - [Using Catch](#using-catch-with-promises)
@@ -108,12 +107,6 @@ Let’s break down what’s happening above:
 - If not, we invoke reject() with the string 'I rejected!'
 
 In our example, `myFirstPromise` resolves or rejects based on a simple condition, but, in practice, promises settle based on the results of asynchronous operations. For example, a database request may fulfill with the data from a query or reject with an error thrown.
-
-#### The node setTimeOut() function
-
-**[⬆ back to top](#table-of-contents)**
-
-- setTimeout() is a Node function which delays the execution of a callback function using the event-loop.
 
 #### Consuming promises
 
