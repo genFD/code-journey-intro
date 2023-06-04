@@ -59,13 +59,13 @@ We use static methods when we want a class to have methods that aren’t availab
 
 The `Date` class, for example — you can both
 
-- create Date instances to represent whatever date you want,
+1- create Date instances to represent whatever date you want,
 
 ```js
 const myDate = new Date()
 ```
 
-- and call static methods, like Date.now() which returns the current date, directly from the class. The .now() method is static, so you can call it directly from the class, but not from an instance of the class
+2- and call static methods, like Date.now() which returns the current date, directly from the class. The .now() method is static, so you can call it directly from the class, but not from an instance of the class
 
 ```js
 const today = Date.now()

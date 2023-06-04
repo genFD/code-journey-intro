@@ -88,7 +88,7 @@ console.log(`I own a pet ${myPet}.`)
 
 - In 1997, Ecma International released ECMA-262 which sets standards for the first version of a scripting language called ECMAScript, shortened to `ES`.
 
-- So, when you see ES6 or JavaScript ES6, it means that that version of JavaScript is following the specifications in the sixth edition of ECMAScript!
+- So, when you see ES6 or JavaScript ES6, **it means that that version of JavaScript is following the specifications in the sixth edition of ECMAScript!**
 
 - despite the release of newer versions (ES7, ES8), ES6 is the biggest update made to ECMAScript since the first edition released in 1997! it's refer to as “Modern JavaScript” because of all the major additions.
 
