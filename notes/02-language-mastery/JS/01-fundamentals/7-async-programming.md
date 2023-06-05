@@ -41,7 +41,7 @@ Learn :
 
 ## Notes
 
-### Promises
+### `Promises`
 
 #### What's a promise?
 
@@ -370,7 +370,7 @@ Let’s break down what’s happening in the example:
 
 `The Promise.all() method runs many promises in parallel, waits for all of them to resolve, and returns an array of results as its fulfilled value.`
 
-### Async-Await
+### `Async-Await`
 
 **[⬆ back to top](#table-of-contents)**
 
