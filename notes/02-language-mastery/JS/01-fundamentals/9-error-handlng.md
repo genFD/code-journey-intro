@@ -20,7 +20,7 @@
     - [Reading Error Stack Traces](#reading-error-stack-traces)
     - [JavaScript Error Types](#javascript-error-types)
     - [Debugging Errors](#debugging-errors)
-  - [Handling Errors](#error-handling-1)
+  - [Handling Errors](#error-handling)
     - [Runtime errors](#runtime-errors)
     - [Constructing an Error](#constructing-an-error)
     - [Throw an error](#the-throw-keyword)
