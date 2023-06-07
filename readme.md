@@ -32,7 +32,14 @@ _Also, this is not intended to be a programming course. As mentionned above, it'
 
 _Thanks!_
 
-## `Table of contents`
+## 💼 `Table of contents - Projects`
+
+- [>\_ 🎨 HTML & CSS](docs/1-html-css.md)
+
+  - [Blog](/projects/01-HTML-CSS/01-blog/blog.readme.md) `<--` HTML Fundamentals !!!
+  - [Omnifood](/projects/01-HTML-CSS/omnifood/) `<--` HTML, CSS & JavaScript !!!
+
+## `💼  Table of contents - Notes`
 
 - [>\_ 🎨 HTML & CSS](docs/1-html-css.md)
 - [🥋 Language mastery](docs/2-language-mastery.md)
