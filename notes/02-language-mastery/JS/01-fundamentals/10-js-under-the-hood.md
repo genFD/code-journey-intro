@@ -6,11 +6,17 @@
 - [📚 Other Useful resources](#other-useful-resources)
 - [🎯 Learning Objectives](#learning-objectives)
 - [📝 Notes](#notes)
-  - [Thread of execution](#thread-of-execution)
-  - [Callstack](#callstack)
-  - [Callbacks & Higher Order functions](#callbacks--higher-order-functions)
-  - [Closure](#closure)
-  - [Classes/Prototypes & Asynchronicity](#classesprototypes--asynchronicity)
+  - [Currying in JavaScript](#currying-in-javascript)
+    - [How currying works](#how-currying-works)
+    - [Currying with Arrow Functions](#currying-with-arrow-functions)
+    - [Currying in Context](#currying-in-context)
+  - [Hoisting in JavaScript](#hoisting-in-javascript)
+  - [Concurrency Model and Event Loop in JavaScript](#concurrency-model-and-event-loop-in-javascript)
+    - [Why Do We Need an Event Loop?](#concurrency-model-and-event-loop-in-javascript)
+    - [Concurrency in JavaScript](#concurrency-in-javascript)
+      - [What Is the Event Loop?](#what-is-the-event-loop)
+      - [Understand the Components of the Event Loop](#understand-the-components-of-the-event-loop)
+      - [The Event Loop in Action](#the-event-loop-in-action)
 
 ## Resources
 
@@ -328,6 +334,8 @@ console.log(sortSFByDateJoined)
 
 ### Hoisting in JavaScript
 
+**[⬆ back to top](#table-of-contents)**
+
 What happens during the compilation phase ?
 
 - the JavaScript engine `allocates memory to save the names of declared variables and functions` by `hoisting` variable and function declarations `to the top of their current scope`.
@@ -388,9 +396,13 @@ myVarVariable = 1
 
 ### Concurrency Model and Event Loop in JavaScript
 
+**[⬆ back to top](#table-of-contents)**
+
 > How JavaScript uses its event loop to emulate concurrency ?
 
 #### Why Do We Need an Event Loop?
+
+**[⬆ back to top](#table-of-contents)**
 
 `JavaScript is a single-threaded language`.
 
@@ -426,9 +438,13 @@ console.log('the')
 
 #### Concurrency in JavaScript
 
+**[⬆ back to top](#table-of-contents)**
+
 Since JavaScript is single-threaded, as we saw in the for loop example, we’ll never have that flavor of “true” concurrency. However, we can emulate concurrency using the event loop.
 
 ##### What Is the Event Loop?
+
+**[⬆ back to top](#table-of-contents)**
 
 `At a high level, the event loop is a system for managing code execution.`
 
@@ -437,6 +453,8 @@ Since JavaScript is single-threaded, as we saw in the for loop example, we’ll 
 ![Event loop](/notes/02-language-mastery/assets/JavaScript-Engine-Diagram.webp)
 
 ##### Understand the Components of the Event Loop
+
+**[⬆ back to top](#table-of-contents)**
 
 The event loop is made up of these parts:
 
@@ -493,6 +511,8 @@ This event loop is a specific part of our overall event loop concept. Messages i
 
 ##### The Event Loop in Action
 
+**[⬆ back to top](#table-of-contents)**
+
 Now that we know all of the pieces of the event loop, let’s walk through some code to understand the event loop in action.
 
 ```js
@@ -522,14 +542,230 @@ console.log('This is the last line of code in app.js.')
 
 8. usingsetTimeout pops off of the stack.
 
-#### Behind the Scenes
+#### Introduction to Memory Management in JavaScript
 
-### Thread of execution
+**[⬆ back to top](#table-of-contents)**
 
-### CallStack
+> Avoid Memory Leaks and Performance Issues with Memory Management.
 
-### Callbacks & Higher Order functions
+#### Why learn about memory ?
 
-### Closure
+**[⬆ back to top](#table-of-contents)**
 
-### Classes/Prototypes & Asynchronicity
+It can be easy to get stumped when memory issues cause problems in code, from slow code execution to even crashing your program.
+This article covers how JavaScript handles memory behind the scenes and what to watch out for so you can recognize and avoid memory issues.
+
+With JavaScript, the primary memory issues that come up relate to `memory leaks`, which is when memory that should be released is still in action.
+
+#### Memory in JavaScript
+
+**[⬆ back to top](#table-of-contents)**
+
+JavaScript has two data structures for memory:
+
+- The heap
+- The stack
+
+When you assign values to variables, the JavaScript engine figures out if the value is a `primitive` or a `reference value`. the outcome determines if the value is stored in the heap or the stack.
+
+#### The stack
+
+**[⬆ back to top](#table-of-contents)**
+
+the stack is used for : `static storage where the size of an object is known` when the code is compiled. Since the size is known : `a fixed amount of data is reserved for the object`, and the stack remains ordered. The stack has a finite amount of space provided by the operating system. `You typically only exceed when you have problems in your code, like infinite recursion or memory leaks`.
+
+Also, `Primitive values`, `references to non-primitive values`,and `function call frames` are stored in the stack.
+
+You can think of references as a parking space number in a massive (but disordered) parking garage telling JavaScript where to find objects and functions.
+
+#### The heap
+
+**[⬆ back to top](#table-of-contents)**
+
+The heap provides dynamic memory allocation at runtime for data types that don’t have a fixed size, like `objects and functions`. These are reference values and we keep track of where to find them in the unstructured heap, using a `fixed-size reference` in the stack. If you modify an object, you are modifying a reference to the object and not the object itself.
+
+```js
+const cat = {
+  name: 'Jupiter',
+}
+```
+
+- cat is stored in the heap (object)
+- a reference to cat is stored in the stack (references to non-primitive values)
+- the property name is stored in the stack (Primitive values)
+
+```js
+const pets = ['Jupiter', 'Moshi', 'Hercules']
+```
+
+- The pets array is stored in the heap (object)
+- while a reference to it is stored in the stack. (references to non-primitive values)
+
+```js
+let object = new Object()
+let object2 = object
+object.greeting = 'Hello, world'
+
+console.log(object2) // { greeting: 'Hello, world' }
+```
+
+- object and object2 are `pointing` to the same object in the heap
+- with different variables that are saved in the stack
+
+### Memory Life Cycle
+
+**[⬆ back to top](#table-of-contents)**
+
+We call the `process of allocating, using, and releasing memory` the memory life cycle — and JavaScript handles all of it.
+
+There are three parts to consider:
+
+1. Memory allocation (Values are declared and stored in memory)
+2. Memory in use (Values are read or rewritten)
+3. Releasing memory (Values are no longer in use and get removed from memory)
+
+#### Memory Allocation
+
+**[⬆ back to top](#table-of-contents)**
+
+When we create a variable or declare values, memory is allocated. This can be initiated in many ways:
+
+- Regular variable assignment
+- Assigning properties to an object
+- Declaring callable functions
+- Calling functions
+
+```js
+class Instrument {
+  constructor(name, type, instrumentOrigin) {
+    this.name = name
+    this.type = type
+    this.instrumentOrigin = instrumentOrigin
+  }
+}
+
+let mbira = new Instrument('Mbira', 'Lamellophone', 'Zimbabwe')
+```
+
+- an object is created using the Instrument() constructor function.
+- the variable names take up memory in the stack
+- the function definitions and objects have memory in the heap
+- During function execution, a frame is added to the stack until the function is complete then it can pop off the stack.
+
+#### Calling Functions
+
+**[⬆ back to top](#table-of-contents)**
+
+When a function is called :
+
+- a `function frame is added to the stack and some memory is allocated`.
+- then as more local variables are declared as the function executes,
+- more stack memory gets allocated on the function frame.
+- Any new objects get stored in the heap with references in the function frame in the stack.
+- If another function is called from within the function, another function frame is added to the stack.
+
+When a function is done executing
+
+- its function frame is removed from the stack
+- the memory it used is deallocated and becomes available again to the rest of your code.
+- any objects that were stored in the heap will no longer have references from the stack so they can be garbage collected.
+
+**Note:You may have heard of the website Stack Overflow. The name refers to the stack running out of memory space, often via nested function calls or recursion.**
+
+During execution
+
+- the arguments are passed by value or reference.
+- When you pass primitive values, the argument is assigned to the parameter within the function. The same as it would be if you assigned a string to another variable, which means a new version of the string is created.
+
+```js
+let str = 'Hi'
+let str2 = str
+```
+
+- str and str2 are two separate primitives, and both are saved in the stack with a fixed amount of memory allocation to store the string “Hi”
+
+- There are `two separate versions` of the string “Hi”.
+
+Objects, on the other hand, are passed via a reference variable copy.
+
+If you pass an object and modify the object within the function :
+
+- the original object will be modified because both the original variable and the function’s internal variable are referencing the same object in memory.
+
+```js
+let aaliyah = {
+  name: 'Aaliyah',
+}
+
+function nameObjectModification(obj, name) {
+  obj.name = name
+  return obj
+}
+
+let sarah = nameObjectModification(aaliyah, 'Sarah')
+
+console.log(aaliyah) // { name: 'Sarah' }
+console.log(sarah) // { name: 'Sarah' }
+```
+
+- we created an aaliyah object, which JavaScript saved in the heap with a reference to it in the stack.
+- we called the nameObjectModification() function and assigned it to the variable sarah
+
+When we created the sarah object using the nameObjectModification() function:
+
+- we used a copy of the reference to the aaliyah object.
+
+In the function call :
+
+- the object we use and create still references the aaliyah object even though we’re assigning the return value to a new variable.
+
+So in the end, both variables reference the same object, and the name is updated on both the aaliyah object and the new sarah object.
+
+#### Memory in Use
+
+**[⬆ back to top](#table-of-contents)**
+
+Memory is in use when you are reading and writing allocated memory and includes the following tasks:
+
+- Variable reassignment
+- Using variables
+- Passing arguments to functions
+
+#### Releasing Memory: Garbage Collection
+
+**[⬆ back to top](#table-of-contents)**
+
+#### What happens when your process runs out of memory
+
+**[⬆ back to top](#table-of-contents)**
+
+When your code uses more and more memory :
+
+- it can impact performance and cause Node applications or browser tabs to crash or experience latency.
+
+One way that happens is through memory leaks.
+
+If you have a memory leak:
+
+- the program might try to allocate more memory than is actually available, and you can encounter memory errors. In the browser, that will just be the tab crashing
+
+- for Node, you might see a fatal error message:
+
+```sh
+==== JS stack trace =========================================
+FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory
+```
+
+While that error can be resolved by allocating more memory to your application, finding and fixing the root cause of a memory leak is generally a better fix than throwing more hardware at a problem.
+
+> How can you determine if you might have a memory leak ?
+
+When `memory that’s no longer needed by a program persists`, it is called a memory leak.
+The memory should be returned to the pool of free memory for future objects.
+
+A memory leak can happen when
+
+- garbage collection fails to find an object that lost its connection to the root object
+- objects grow in size and are referenced by other objects.
+
+When this happens, it can be the source of slowdowns, crashes, and high latency in your code.
