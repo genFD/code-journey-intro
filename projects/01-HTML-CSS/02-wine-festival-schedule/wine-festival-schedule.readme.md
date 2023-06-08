@@ -51,4 +51,4 @@ The challenge is to build out this table and get it looking as close to the desi
 
 ## Try it
 
-- The starter folder is locate here -> [Starter](/projects/01-HTML-CSS/02-wine-festival-schedule/starter/)
+- The starter folder is here `->` [Starter](/projects/01-HTML-CSS/02-wine-festival-schedule/starter/)
