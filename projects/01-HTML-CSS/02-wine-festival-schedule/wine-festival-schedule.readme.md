@@ -20,7 +20,7 @@
 
 ## Learning Goal
 
-- Use your knowledge of the HTML `<table>` element to present information in a two-dimensional table.
+- Apply knowledge of the HTML `<table>` element to present information in a two-dimensional table.
 
 ## Overview
 

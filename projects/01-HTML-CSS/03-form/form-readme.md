@@ -17,7 +17,7 @@
 
 ## Learning Goal
 
-- Use our knowledge of the HTML `<form>` and grab user input to tell a story
+- Apply knowledge of the HTML `<form>` element and grab user input to tell a story
 
 ## Overview
 
