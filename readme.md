@@ -6,7 +6,7 @@ Thanks for checking this repo.
 
 This repo attempts to showcase my journey from learning programming concepts and building simple and small projects to writing a production-grade full-stack application, using some of the best resources out there.
 
-🎯 The goal is to serve as a collection of notes from courses I've been taking and projects I've built that can be referenced in order to :
+🎯 The goal is to serve as a collection of projects I've built and notes from courses I've been taking which can be referenced in order to :
 
 - Review a concept
 - Look up a solution to a problem
@@ -36,10 +36,29 @@ _Thanks!_
 
 - [>\_ 🎨 HTML & CSS](docs/1-html-css.md)
 
-  - [Blog](/projects/01-HTML-CSS/01-blog/blog.readme.md) `<--` HTML Fundamentals !!!
-  - [Omnifood](/projects/01-HTML-CSS/omnifood/) `<--` HTML, CSS & JavaScript !!!
+  - [Article](/projects/01-HTML-CSS/01-article/html-article-readme.md) `<--` HTML Fundamentals - `Headings` !!!
+  - [Wine Festival Schedule](/projects/01-HTML-CSS/02-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
+  - [Form a story](/projects/01-HTML-CSS/03-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
+  - [New York City Blog](/projects/01-HTML-CSS/04-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
+  - [Omnifood](/projects/01-HTML-CSS/05-omnifood/omnifood-readme.md) `<--` HTML Fundamentals, CSS Advanced - `Grid, Flexbox` etc...
 
-## `💼  Table of contents - Notes`
+- [🥋 Language mastery](docs/2-language-mastery.md)
+
+  - [Javascript](docs/2-language-mastery.md)
+  - [Typescript](docs/2-language-mastery.md)
+
+- [💻 Building UI](docs/3-building-ui.md)
+
+- [🛰️ Creating API](docs/5-creating-api.md)
+
+- [🛢️ Databases](docs/6-databases.md)
+- [🐬 Docker](docs/7-docker.md)
+- [☁ Aws & Cloud computing](docs/8-cloud-computing.md)
+- [🔒 Security, Infrastructure and scalability](docs/9-security-infra-scalability.md)
+- [🧪 Testing](docs/testing.md)
+- [🏢 Production-grade fullStack Application V1](docs/10-production-grade-app.md)
+
+## `💼 Table of contents - Notes`
 
 - [>\_ 🎨 HTML & CSS](docs/1-html-css.md)
 - [🥋 Language mastery](docs/2-language-mastery.md)

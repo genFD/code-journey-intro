@@ -16,9 +16,14 @@
 
 ## Concepts to review for this project
 
+- HTML document structure
+- Headings
+- Displaying Text
+- Styling Text
+
 ## Learning Goal
 
-- Learn HTML
+- Learn HTML Fundamentals
 
 ## Overview
 
