@@ -12,6 +12,7 @@
 - [📕 What I learned](#what-i-learned)
 - [⏭️ Continued development](#continued-development)
 - [📚 Useful resources](#useful-resources)
+- [Try It](#useful-resources)
 
 ## Concepts to review for this project
 
@@ -33,7 +34,7 @@ The challenge is to build out this table and get it looking as close to the desi
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Table HTML](https://table-html-journey-code.vercel.app/)
 
 ## My process
 
@@ -47,3 +48,7 @@ The challenge is to build out this table and get it looking as close to the desi
 #### Continued development
 
 #### Useful resources
+
+## Try it
+
+- The starter folder is locate here -> [Starter](/projects/01-HTML-CSS/02-wine-festival-schedule/starter/)
