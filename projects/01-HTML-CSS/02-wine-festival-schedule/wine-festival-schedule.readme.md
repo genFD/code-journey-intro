@@ -19,13 +19,13 @@
 
 ## Learning Goal
 
-- Learning how to use the HTML `<table>` element to present information in a two-dimensional table to the users
+- Use your knowledge of the HTML `<table>` element to present information in a two-dimensional table.
 
 ## Overview
 
 ### Screenshot
 
-![Design preview for wine festival schedule](/projects/01-HTML-CSS/02-wine-festival-schedule/wine-schedule.png)
+![Design preview for wine festival schedule](/projects/01-HTML-CSS/02-wine-festival-schedule/Wine-Festival-Schedule.png)
 
 ### The challenge
 
