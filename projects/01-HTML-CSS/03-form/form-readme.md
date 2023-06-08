@@ -29,16 +29,11 @@
 
 The challenge is to make a `<form>` capable of collecting the correct information so that the newly crafted story makes sense!.
 
-The logic for parsing and inserting of user inputs is already taken care of in `main.js` using JavaScript . We’ve also added some styling to the page in `style.css`
-
-Your users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
+The logic for parsing and inserting of user inputs is already taken care of in `main.js` using JavaScript. Some styling was also added to the page in `style.css`
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Form A Story](https://journey-code-form.vercel.app/index.html)
 
 ## My process
 
