@@ -9,6 +9,13 @@
   - [🥷🏽 The challenge](#the-challenge)
   - [🔗Links](#links)
 - [🪜 My process](#my-process)
+  - [Navigation Bar](#navigation-bar)
+  - [Blog Content](#blog-content)
+  - [Aside Content](#aside-content)
+  - [Aside Content](#aside-content)
+  - [More Media](#more-media)
+  - [Footer](#footer)
+- [Built with](#built-with)
 - [📕 What I learned](#what-i-learned)
 - [⏭️ Continued development](#continued-development)
 - [📚 Useful resources](#useful-resources)
@@ -17,13 +24,13 @@
 
 ## Learning Goal
 
-- Apply your knowledge of semantic HTML to write a blog
+- Apply knowledge of semantic HTML to create a blog page
 
 ## Overview
 
 ### Screenshot
 
-![Design preview for OMNIFOOD](/projects/01-HTML-CSS/02-wine-festival-schedule/wine-schedule.png)
+![Design preview for OMNIFOOD](/projects/01-HTML-CSS/04-new-york-city-blog/nyc-blog.png)
 
 ### The challenge
 
@@ -32,13 +39,11 @@ Some styling was added to the page in `style.css`
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [NYC BLOG](https://journey-code-semantic-html.vercel.app/)
 
 ## My process
 
-### Rationale
-
-#### Navigation Bar
+### Navigation Bar
 
 - A common usage of a navigation bar is to create shortcuts for a webpage. This will allow the user to go directly to the information they want to access through the navigation links. So I created a `<nav>` element underneath the opening `<body>` tag.
 
@@ -46,7 +51,7 @@ Some styling was added to the page in `style.css`
 
 - Then I used an `<li>` element with `<a href="#"></a>` nested within the `<li>` element to link the content to the nav bar
 
-#### Blog Content
+### Blog Content
 
 - We need to title the blog, so people know what we’re writing about. So I Created a `<header>` element under the closing `</nav>` tag, which contain the text `New York City`
 
@@ -62,13 +67,13 @@ Some styling was added to the page in `style.css`
 
 - I also added `figcaption` to describe and bring meaning to the image.
 
-#### Aside Content
+### Aside Content
 
 - We also needed to add additional content to enhance the post. The `<aside>` element is used to mark additional information that can enhance another element. So I used the `<aside>` element under the closing `</figure>` tag to add the supporting text.
 
 - Next, the webpage has a list some of the top food options in NYC, ranked from 1 to 7. the `<ol>` element is useful when you need to list different steps in a process or rank items from first to last. So I used the `<ol>` element to create this ordered list!
 
-#### More Media
+### More Media
 
 - I created a section for the media content with an id of “media” to target it with the nav bar.
 
@@ -80,7 +85,7 @@ Some styling was added to the page in `style.css`
 
 - The `<audio>` element is used to embed audio content into a document. So I created a `<audio>` element with the attribute controls.
 
-#### Footer
+### Footer
 
 - I created a `<footer>` element with an id of “about” under the closing </main> tag
 
@@ -90,13 +95,13 @@ Some styling was added to the page in `style.css`
 
 And that's it! a webpage using only `semantic elements`.🎉 🎉 🎉 🎉
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS
 
-#### What I learned
+## What I learned
 
-#### Continued development
+## Continued development
 
-#### Useful resources
+## Useful resources
