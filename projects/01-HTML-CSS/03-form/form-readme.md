@@ -17,7 +17,7 @@
 
 ## Learning Goal
 
-- Learning how to use the `<form>` element to
+- Use our knowledge of the HTML `<form>` and grab user input to tell a story
 
 ## Overview
 
@@ -27,7 +27,9 @@
 
 ### The challenge
 
-The challenge is to build out this table and get it looking as close to the design as possible.
+The challenge is to make a `<form>` capable of collecting the correct information so that the newly crafted story makes sense!.
+
+The logic for parsing and inserting of user inputs is already taken care of in `main.js` using JavaScript . We’ve also added some styling to the page in `style.css`
 
 Your users should be able to:
 
