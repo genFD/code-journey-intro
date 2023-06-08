@@ -23,7 +23,7 @@
 
 ### Screenshot
 
-![Design preview for OMNIFOOD](/projects/01-HTML-CSS/02-wine-festival-schedule/wine-schedule.png)
+![Design preview for form a story](/projects/01-HTML-CSS/03-form/Form-a-Story.png)
 
 ### The challenge
 
