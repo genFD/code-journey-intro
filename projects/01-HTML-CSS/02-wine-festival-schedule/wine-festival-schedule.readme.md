@@ -25,7 +25,7 @@
 
 ### Screenshot
 
-![Design preview for wine festival schedule](/projects/01-HTML-CSS/02-wine-festival-schedule/wine-schedule.png)
+![Design preview for wine festival schedule](./wine-schedule.png)
 
 ### The challenge
 
