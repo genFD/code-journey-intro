@@ -6,6 +6,11 @@
 - [📚 Other Useful resources](#other-useful-resources)
 - [🎯 Learning Objectives](#learning-objectives)
 - [📝 Notes](#notes)
+- [What is an Event?](#what-is-an-event)
+- ["Firing" Events](#firing-events)
+- [Event Handler Registration](#event-handler-registration)
+- [Adding Event Handlers](#adding-event-handlers)
+- [Removing Event Handlers](#removing-event-handlers)
 
 ## Resources
 
@@ -37,6 +42,8 @@ _TLDR_:
 
 ### What is an Event?
 
+**[⬆ back to top](#table-of-contents)**
+
 Events on the web are `user interactions and browser manipulations that you can program to trigger functionality`.
 
 Some other examples of events are:
@@ -49,11 +56,15 @@ When a user does any of the above actions, they’re causing the event to be fir
 
 ### "Firing" Events
 
+**[⬆ back to top](#table-of-contents)**
+
 ![Events](/notes/02-language-mastery/assets/event-illustr.svg)
 
 After a specific event fires on a specific element in the document object model (or DOM), an event handler function can be created to run as a response.
 
 ### Event Handler Registration
+
+**[⬆ back to top](#table-of-contents)**
 
 Using the .addEventListener() method :
 
@@ -98,6 +109,8 @@ The named function `eventHandlerFunction` is passed as the second argument of th
 
 ### Adding Event Handlers
 
+**[⬆ back to top](#table-of-contents)**
+
 We looked at registering event handlers using the .addEventListener() method, but there is also another way!
 
 Event Handlers can also be registered by `setting an .onevent property on a DOM element (event target).` The pattern for registering a specific event is to append an element with `.on` followed by the lowercased event type name.
@@ -109,6 +122,8 @@ eventTarget.onclick = eventHandlerFunction
 we’ll be using the .addEventListener() syntax, but we wanted to also introduce the .onevent syntax because both are widely used.
 
 ### Removing Event Handlers
+
+**[⬆ back to top](#table-of-contents)**
 
 The `.removeEventListener()` method is used to reverse the .`addEventListener()` method.
 This method `stops the event target from “listening” for an event to fire when it no longer needs to.`

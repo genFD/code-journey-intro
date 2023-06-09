@@ -6,6 +6,12 @@
 - [📚 Other Useful resources](#other-useful-resources)
 - [🎯 Learning Objectives](#learning-objectives)
 - [📝 Notes](#notes)
+- [JavaScript and HTML](#javascript-and-html)
+- [The script tag](#the-script-tag)
+- [The src attribute](#the-src-attribute)
+- [How are scripts loaded?](#how-are-scripts-loaded)
+- [Defer attribute](#defer-attribute)
+- [Async attribute](#async-attribute)
 
 ## Resources
 
@@ -30,9 +36,13 @@ _TLDR_:
 
 ### JavaScript and HTML
 
+**[⬆ back to top](#table-of-contents)**
+
 Web programmers use JavaScript to make web pages dynamic and interactive. This powerful scripting language is encapsulated in its own HTML element: the `<script>` element. You can think of this `<script>` element as the door to JavaScript for HTML.
 
 ### The `<script>` tag
+
+**[⬆ back to top](#table-of-contents)**
 
 It allows you to add JavaScript code inside an HTML file.
 
@@ -47,6 +57,8 @@ It allows you to add JavaScript code inside an HTML file.
 
 ### The `src` attribute
 
+**[⬆ back to top](#table-of-contents)**
+
 Linking code is preferable because of a programming concept called Separation of Concerns (SoC)
 
 Instead of writing JavaScript in our HTML file, we are going to write it in its own file, and then reference this code with a file path name.
@@ -58,6 +70,8 @@ We will do this using : the `src` attribute
 ```
 
 ### How are scripts loaded?
+
+**[⬆ back to top](#table-of-contents)**
 
 let’s take a moment to talk about how browsers parse HTML files into web pages. This informs where to include a `<script>` element inside your HTML file.
 
@@ -82,6 +96,8 @@ This shows how scripts are loaded sequentially, and how they pause the HTML pars
 
 ### Defer attribute
 
+**[⬆ back to top](#table-of-contents)**
+
 - When the HTML parser comes across a `<script>` element, it stops to load its content
 - Once loaded, the JavaScript code is executed and the HTML parser proceeds to parse the next element in the file. This can result in a slow load time for your website
 
@@ -100,6 +116,8 @@ This shows how scripts are loaded sequentially, and how they pause the HTML pars
 When a script contains functionality that requires interaction with the DOM, the defer attribute is the way to go. This way, it ensures that the entire HTML file has been parsed before the script is executed.
 
 ### Async attribute
+
+**[⬆ back to top](#table-of-contents)**
 
 - The `async` attribute loads and executes the script asynchronously with the rest of the webpage.
 

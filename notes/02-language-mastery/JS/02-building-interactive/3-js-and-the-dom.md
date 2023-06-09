@@ -6,6 +6,14 @@
 - [📚 Other Useful resources](#other-useful-resources)
 - [🎯 Learning Objectives](#learning-objectives)
 - [📝 Notes](#notes)
+- [The Document Keyword](#the-document-keyword)
+- [Tweak an Element](#tweak-an-element)
+- [Select and Modify Elements](#select-and-modify-elements)
+- [Style an Element](#style-an-element)
+- [Traversing the DOM](#traversing-the-dom)
+- [Create and Insert Elements](#create-and-insert-elements)
+- [Remove an Element](#remove-an-element)
+- [Add Click Interactivity](#add-click-interactivity)
 
 ## Resources
 
@@ -39,6 +47,8 @@ _TLDR_:
 
 ### The Document Keyword
 
+**[⬆ back to top](#table-of-contents)**
+
 This lesson will focus on some of the most useful methods and properties of the DOM interface in JavaScript.
 
 The `document` object in JavaScript is the door to the DOM structure.
@@ -54,6 +64,8 @@ Here is a ![comprehensive list ](https://developer.mozilla.org/en-US/docs/Web/AP
 The diagram illustrates that the document keyword points to the root node of the Document Object Model (DOM). The document.body and document.head properties act as though you were directly accessing the html DOM element
 
 ### Tweak an Element
+
+**[⬆ back to top](#table-of-contents)**
 
 When using the DOM in your script to access an HTML element, `you also have access to all of that element’s properties.`
 This includes the ability to
@@ -76,6 +88,8 @@ document.body.innerHTML = '<h2>This is a heading</h2>'
 ```
 
 ### Select and Modify Elements
+
+**[⬆ back to top](#table-of-contents)**
 
 In the previous exercise, we accessed the `<body>` element with the document keyword!
 What if we wanted to select a specific element besides the entire `<body>` element?
@@ -111,6 +125,8 @@ In the above example code, the first element with the 'student' class and the se
 
 ### Style an Element
 
+**[⬆ back to top](#table-of-contents)**
+
 Another way to modify an element is by changing its CSS style. The `.style` property of a DOM element provides access to the inline style of that HTML tag.
 
 The syntax follows an `element.style.property` format, with the property representing a CSS property.
@@ -131,6 +147,8 @@ document.querySelector('.blue').style.fontFamily = 'Roboto'
 ```
 
 ### Traversing the DOM
+
+**[⬆ back to top](#table-of-contents)**
 
 - A parent node is any node that is a direct ancestor of another node.
 
@@ -168,6 +186,8 @@ first.parentNode.style.backgroundColor = 'beige'
 
 ### Create and Insert Elements
 
+**[⬆ back to top](#table-of-contents)**
+
 Just as the `DOM allows scripts` to `modify existing elements`, it also `allows for the creation of new ones`.
 
 The `.createElement()` method creates a new element based on the specified tag name passed into it as an argument. However, it does not append it to the document. It creates an empty element with no inner HTML.
@@ -197,6 +217,8 @@ The `.appendChild()` method does not replace the content inside of the parent, i
 
 ### Remove an Element
 
+**[⬆ back to top](#table-of-contents)**
+
 the DOM also allows for the removal of an element. The `.removeChild()` method removes a specified child from a parent.
 
 ```js
@@ -215,6 +237,8 @@ document.getElementById('sign').hidden = true
 The code above did not remove the element with ID of 'sign' from the DOM but rather, hid it.
 
 ### Add Click Interactivity
+
+**[⬆ back to top](#table-of-contents)**
 
 Events are `user interactions` and `browser manipulations` on the document object model.
 Events can include anything from a `click` to a user mousing over an element.

@@ -6,6 +6,15 @@
 - [📚 Other Useful resources](#other-useful-resources)
 - [🎯 Learning Objectives](#learning-objectives)
 - [📝 Notes](#notes)
+  - [The Creational Category](#the-creational-category)
+  - [The Structural Category](#the-structural-category)
+  - [The Behavioral Category](#the-behavioral-category)
+  - [Watch Out for Anti-Patterns](#watch-out-for-anti-patterns)
+    - [What an Anti-Pattern Looks Like](#what-an-anti-pattern-looks-like)
+  - [Putting It All Together: How to Select the Right Design Pattern](#putting-it-all-together-how-to-select-the-right-design-pattern)
+  - [Design Patterns in Architecture](#design-patterns-in-architecture)
+    - [Using the Proxy Pattern to Implement a Proxy Server](#using-the-proxy-pattern-to-implement-a-proxy-server)
+    - [Using the Facade Pattern to Implement Microservices](#using-the-facade-pattern-to-implement-microservices)
 
 ## Resources
 
@@ -37,6 +46,8 @@ Overall, solutions that implement design patterns tend to be:
 Let’s take a look at each category and check out some common design patterns in action
 
 ### The Creational Category
+
+**[⬆ back to top](#table-of-contents)**
 
 **Need** :
 
@@ -139,6 +150,8 @@ When you instantiate your instance of Singleton, you use the new operator when c
 
 ### The Structural Category
 
+**[⬆ back to top](#table-of-contents)**
+
 **Need**:
 Structural design patterns `handle relationships between objects`.
 
@@ -236,6 +249,8 @@ class Compression {
 In the pseudo-code example below, the VideoConverter class provides access to the subsystem classes and is meant to direct client requests across the moving parts. The client would only interface with the VideoConverter class.
 
 ### The Behavioral Category
+
+**[⬆ back to top](#table-of-contents)**
 
 **Need** :
 
@@ -379,6 +394,8 @@ In the example :
 
 ### Watch Out for Anti-Patterns
 
+**[⬆ back to top](#table-of-contents)**
+
 In contrast to design patterns being best practices, anti-patterns describe `ineffective solutions to problems` that result in bad things happening, such as:
 
 - Namespace pollution — unexpected behavior from interactions from different clients
@@ -403,6 +420,8 @@ Some common anti-patterns include:
 - Modifying or extending the Object class prototype. All objects in JavaScripts have a Prototype property that can be altered with methods and properties and all new objects inherit from this root Object by default. However, altering it is a huge no-no.
 
 #### What an Anti-Pattern Looks Like
+
+**[⬆ back to top](#table-of-contents)**
 
 ```js
 class Customer {
@@ -442,6 +461,8 @@ We’d want to refactor the above code so the Customer objects are only
 New types of classes — like Transactions, Transaction, and Products — can handle additional information and methods.
 
 ### Putting It All Together: How to Select the Right Design Pattern
+
+**[⬆ back to top](#table-of-contents)**
 
 With so many patterns and anti-patterns to take into consideration, it will take time to refine your design pattern selection process. There are a few steps you can take to choose an appropriate design pattern :
 
@@ -534,9 +555,13 @@ The mediator pattern was a good option because `it is specifically meant to enca
 
 ### Design Patterns in Architecture
 
+**[⬆ back to top](#table-of-contents)**
+
 Design patterns `can also be applied to system architectures`. We can move “up the stack” from code units to `processes and systems`. Let’s discuss how you could implement a couple of the design patterns you’ve seen applied to code, but within the context of system design.
 
 #### Using the Proxy Pattern to Implement a Proxy Server
+
+**[⬆ back to top](#table-of-contents)**
 
 the Proxy pattern is a great fit for implementing a proxy server. Proxy servers are used to to streamline web traffic and protect sensitive data.
 
@@ -567,6 +592,8 @@ That is exactly what you need for implementing a proxy server, which can be used
 the pattern can `increase the efficiency of requests`; one of the advantages is that we can `use the proxy to cache results` and `handle requests from multiple users`.
 
 #### Using the Facade Pattern to Implement Microservices
+
+**[⬆ back to top](#table-of-contents)**
 
 Microservices are an `architectural style that structures an application as a collection of services`. In theory, microservices `make it easier for business units to write their own APIs that can interact with other parts of the code base.`
 

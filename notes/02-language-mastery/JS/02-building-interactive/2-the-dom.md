@@ -6,6 +6,11 @@
 - [📚 Other Useful resources](#other-useful-resources)
 - [🎯 Learning Objectives](#learning-objectives)
 - [📝 Notes](#notes)
+- [What is the DOM?](#what-is-the-dom)
+- [The DOM as a Tree Structure](#the-dom-as-a-tree-structure)
+- [Parent Child Relationships in the DOM](#parent-child-relationships-in-the-dom)
+- [Nodes and Elements in the DOM](#nodes-and-elements-in-the-dom)
+- [Attributes of Element Node](#attributes-of-element-node)
 
 ## Resources
 
@@ -31,6 +36,8 @@ _TLDR_:
 
 ### What is the DOM?
 
+**[⬆ back to top](#table-of-contents)**
+
 The Document Object Model, abbreviated DOM, is a powerful tree-like structure that `allows programmers to conceptualize hierarchy and access the elements on a web page`.
 
 a useful way to understand what `DOM` does is by breaking down the acronym but out of order:
@@ -41,6 +48,8 @@ The DOM is implemented by browsers to allow `JavaScript to access, modify, and u
 
 ### The DOM as a Tree Structure
 
+**[⬆ back to top](#table-of-contents)**
+
 Perhaps you’re already familiar with the concept of family trees: these charts represent the familial relationships amongst the descendants of a given family name.
 In computer science, we would call each family member a node.
 
@@ -50,12 +59,16 @@ In the DOM tree, the top-most node is called the `root node`, and it represents 
 
 ### Parent Child Relationships in the DOM
 
+**[⬆ back to top](#table-of-contents)**
+
 Following the metaphor of a family tree, let’s define some key terminology in the DOM hierarchy:
 
 `A parent node` is any node that is `a direct ancestor of another node.`
 A child node is a`direct descendant of another node, called the parent node.`
 
 ### Nodes and Elements in the DOM
+
+**[⬆ back to top](#table-of-contents)**
 
 ```html
 <!DOCTYPE html>
@@ -85,6 +98,8 @@ When trying to modify a web page, the script will mostly interact with the DOM e
 In the diagram to the right, the DOM element nodes are highlighted red. These correspond to elements in the HTML document.
 
 ### Attributes of Element Node
+
+**[⬆ back to top](#table-of-contents)**
 
 ![Attributes](/notes/02-language-mastery/assets/domTreeattributes.svg)
 

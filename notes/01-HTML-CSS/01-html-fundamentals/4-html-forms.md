@@ -6,20 +6,30 @@
 - [📚 Other Useful resources](#other-useful-resources)
 - [🎯 Learning Objectives](#learning-objectives)
 - [📝 Notes](#notes)
+
   - [Introduction to HTML Forms](#notes)
-  - [How A Form works?](#how-a-form-works)
-  - [Text Input](#text-input)
-  - [Adding a label](#adding-a-label)
-  - [Password input](#password-input)
-  - [Number input](#number-input)
-  - [Range input](#range-input)
-  - [Checkbox input](#checkbox-input)
-  - [Radio Button input](#radio-button-input)
-  - [Radio Button input](#radio-button-input)
-  - [Dropdown list](#dropdown-list)
-  - [Datalist Input](#datalist-input)
-  - [Textarea element](#textarea-element)
-  - [Submit form](#submit-form)
+
+    - [How A Form works?](#how-a-form-works)
+    - [Text Input](#text-input)
+    - [Adding a label](#adding-a-label)
+    - [Password input](#password-input)
+    - [Number input](#number-input)
+    - [Range input](#range-input)
+    - [Checkbox input](#checkbox-input)
+    - [Radio Button input](#radio-button-input)
+    - [Radio Button input](#radio-button-input)
+    - [Dropdown list](#dropdown-list)
+    - [Datalist Input](#datalist-input)
+    - [Textarea element](#textarea-element)
+    - [Submit form](#submit-form)
+
+  - [Form Validation](#form-validation)
+
+    - [Introduction to HTML Form Validation](#introduction-to-html-form-validation)
+    - [Requiring an Input](#requiring-an-input)
+    - [Set a Minimum and Maximum](#set-a-minimum-and-maximum)
+    - [Checking Text Length](#checking-text-length)
+    - [Matching a Pattern](#matching-a-pattern)
 
 ## Resources
 
@@ -56,11 +66,15 @@ _TLDR_:
 
 ### Introduction to HTML Forms
 
+**[⬆ back to top](#table-of-contents)**
+
 ![Search Bar](/notes/01-HTML-CSS/assets/search-bar.gif)
 
 Just like a physical form, an HTML `<form>` element is responsible for `collecting information to send somewhere else`.
 
 ### How A Form works?
+
+**[⬆ back to top](#table-of-contents)**
 
 The `<form>` element is a great tool for `collecting information`, but then we need to send that information somewhere else for processing. We need to supply the `<form>` element with both the `location of where the <form>‘s information goes` and `what HTTP request to make`.
 
@@ -74,6 +88,8 @@ In the above example, we’ve created the skeleton for a `<form>` that will send
 - The method attribute is assigned a HTTP verb that is included in the HTTP request
 
 ### Text Input
+
+**[⬆ back to top](#table-of-contents)**
 
 The `<input>` element has a `type attribute` which determines `how it renders` on the web page and `what kind of data` it can accept.
 
@@ -98,6 +114,8 @@ When the form is submitted, the text: `"first-text-field=important details"` is 
 
 ### Adding a label
 
+**[⬆ back to top](#table-of-contents)**
+
 - For a user `to properly identify an <input> we use the appropriately named <label> element`
 
 - To associate a `<label>` and an `<input>`, the `<input>` needs an `id attribute`. We then assign the`for` attribute of the `<label>` element with the value of the `id` attribute of `<input>` :
@@ -116,6 +134,8 @@ When the form is submitted, the text: `"first-text-field=important details"` is 
 
 ### Password input
 
+**[⬆ back to top](#table-of-contents)**
+
 - An `<input type ="password">` element will replace input text with another character like an asterisk (\*) or a dot (•).
 
 ```html
@@ -132,6 +152,8 @@ After a user types into the field, it would look like:
 - Even though the password field obscures the text of the password, when the form is submitted, the value of the text is sent. In other words, if “hunter2” is typed into the password field, “user-password=hunter2” is sent along with the other information on the form.
 
 ### Number input
+
+**[⬆ back to top](#table-of-contents)**
 
 - By setting `type="number"` for an `<input>` we can restrict what users type into the input field to just numbers (and a few special characters like -, +, and .)
 
@@ -150,6 +172,8 @@ renders :
 
 ### Range input
 
+**[⬆ back to top](#table-of-contents)**
+
 - When we wanted to limit what numbers our users could type we might consider, we could use the type "range" which creates a slider.
 
 - To set the minimum and maximum values of the slider we assign values to the min and max attribute of the `<input>`
@@ -166,6 +190,8 @@ renders :
 ![Range input](/notes/01-HTML-CSS/assets/rangeInput-labeled.webp)
 
 ### Checkbox input
+
+**[⬆ back to top](#table-of-contents)**
 
 When we want to present multiple options to users and allow them to select any number of options.
 
@@ -189,6 +215,8 @@ Which renders:
 
 ### Radio Button input
 
+**[⬆ back to top](#table-of-contents)**
+
 - there are cases where we want to present multiple options and only allow for one selection like asking users if they agree or disagree with the terms and conditions.
 
 ```html
@@ -209,6 +237,8 @@ Which renders:
 - To group radio buttons together, we assign them the same name and only one radio button from that group can be selected.
 
 ### Dropdown list
+
+**[⬆ back to top](#table-of-contents)**
 
 When we have a whole list of options to choose from, one solution is to use a dropdown list to allow our users to choose one option from an organized list.
 
@@ -236,6 +266,8 @@ And if we click on the field containing the first option, the list is revealed :
 When the `<form>` is submitted, the information from this input field will be sent using the name of the `<select>` and the value of the chosen `<option>`. For instance, if a user selected Pizza from the dropdown list, the information would be sent as `"lunch=pizza"`.
 
 ### Datalist Input
+
+**[⬆ back to top](#table-of-contents)**
 
 - if the list has a lot of options, it could be tedious for users to scroll through the entire list to locate one option. That’s where using the `<datalist>` element comes in handy
 
@@ -271,6 +303,8 @@ And when field is selected:
 
 ### Textarea element
 
+**[⬆ back to top](#table-of-contents)**
+
 - There are cases where users need to write in more information, like a blog post. In such cases, instead of using an `<input>`, we could use `<textarea>`.
 
 - The `<textarea>` element is used to create a bigger text field for users to write more text.
@@ -298,6 +332,8 @@ an empty `<textarea>` that is 5 rows by 30 columns is rendered to the page like 
 
 ### Submit form
 
+**[⬆ back to top](#table-of-contents)**
+
 - The purpose of a form is to collect information that will be submitted. That’s the role of the submit button — users click on it when they are finished with filling out information in the `<form>` and they’re ready to send it off
 
 - To make a submit button in a `<form>`, we’re going to use the reliable`<input>` element and set the type to "submit". For instance:
@@ -311,6 +347,8 @@ an empty `<textarea>` that is 5 rows by 30 columns is rendered to the page like 
 ![submit](/notes/01-HTML-CSS/assets/submit-button2.webp)
 
 ### Form validation
+
+**[⬆ back to top](#table-of-contents)**
 
 _TLDR_:
 
@@ -332,6 +370,8 @@ _TLDR_:
 
 #### Introduction to HTML Form Validation
 
+**[⬆ back to top](#table-of-contents)**
+
 ![HTML Form Validation](/notes/01-HTML-CSS/assets/form-validation.gif)
 
 - Validation is the concept of checking user provided data against the required data.
@@ -344,6 +384,8 @@ There are different types of validation.
 - We use `client-side validation` if we want to check the data on the browser (the client). This validation occurs before data is sent to the server.
 
 #### Requiring an Input
+
+**[⬆ back to top](#table-of-contents)**
 
 - Sometimes we have fields in our `<form>` s which are not optional, i.e. there must be information provided before we can submit it
 
@@ -367,6 +409,8 @@ This renders a text box, and if we try to submit the`<form>` without filling it 
 
 #### Set a Minimum and Maximum
 
+**[⬆ back to top](#table-of-contents)**
+
 - Another built-in validation we can use is to assign a minimum or maximum value for a number field, e.g. `<input type="number">` and `<input type="range">`
 
 - To set a minimum acceptable value, we use the min attribute and assign a value.
@@ -385,6 +429,8 @@ If a user tries to submit an input that is less than 1 a warning will appear:
 ![Min-Max](/notes/01-HTML-CSS/assets/min-max.webp)
 
 #### Checking Text Length
+
+**[⬆ back to top](#table-of-contents)**
 
 - There are certainly cases where we wouldn’t want our users typing more than a certain number of characters (think about the character cap for messages on Twitter).
 
@@ -414,6 +460,8 @@ If a user tries to submit an input that is less than 1 a warning will appear:
 ![Minlength](/notes/01-HTML-CSS/assets/minlength.webp)
 
 #### Matching a Pattern
+
+**[⬆ back to top](#table-of-contents)**
 
 - We could also add a validation to check how the text was provided.
 

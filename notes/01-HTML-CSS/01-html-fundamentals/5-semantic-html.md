@@ -6,7 +6,14 @@
 - [📚 Other Useful resources](#other-useful-resources)
 - [🎯 Learning Objectives](#learning-objectives)
 - [📝 Notes](#notes)
-  - [Introduction to HTML Forms](#notes)
+  - [Introduction to Semantic HTML](#introduction-to-semantic-html)
+  - [Header and Nav](#header-and-nav)
+  - [Main and Footer](#main-and-footer)
+  - [Article and Section](#article-and-section)
+  - [The Aside Element](#the-aside-element)
+  - [Figure and Figcaption](#figure-and-figcaption)
+  - [Audio and Attributes](#audio-and-attributes)
+  - [Video and Embed](#video-and-embed)
 
 ## Resources
 
@@ -44,6 +51,8 @@ _TLDR_:
 
 ### Introduction to Semantic HTML
 
+**[⬆ back to top](#table-of-contents)**
+
 ![Semantic vs Non Semantic](/notes/01-HTML-CSS/assets/Semantic.svg)
 
 - The word semantic means “relating to meaning,” so semantic elements provide information about the content between the opening and closing tags.
@@ -67,6 +76,8 @@ _TLDR_:
 - However, stores that do have signs for each aisle make it a lot easier to find the items you need, just like Semantic HTML.
 
 ### Header and Nav
+
+**[⬆ back to top](#table-of-contents)**
 
 - A `<header>` is a container usually for either `navigational links` or `introductory content` containing `<h1>` to `<h6>` headings.
 
@@ -100,6 +111,8 @@ _TLDR_:
 - By using `<nav>` as a way to label our navigation links, it will be easier for not only us, but also for web browsers and screen readers to read the code.
 
 ### Main and Footer
+
+**[⬆ back to top](#table-of-contents)**
 
 - The element `<main>` is used to encapsulate `the dominant content within a webpage`.
 - This tag is separate from the `<footer>` and the `<nav>` of a web page since these elements don’t contain the principal content.
@@ -138,6 +151,8 @@ _TLDR_:
 
 ### Article and Section
 
+**[⬆ back to top](#table-of-contents)**
+
 - `<section>` defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
 
 - For example, content with the same theme such as articles about cricket can go under a single `<section>`.
@@ -167,6 +182,8 @@ _TLDR_:
 
 ### The Aside Element
 
+**[⬆ back to top](#table-of-contents)**
+
 - The `<aside>` element is used to mark additional information that can enhance another element but isn’t required in order to understand the main content.
 
 - This element can be used alongside other elements such as `<article>`or `<section>.` Some common uses of the `<aside>` element are for:
@@ -193,6 +210,8 @@ _TLDR_:
 - The information within the `<article>` is the important content. Meanwhile the information within the `<aside>` enhances the information in `<article>` but is not required in order to understand it.
 
 ### Figure and Figcaption
+
+**[⬆ back to top](#table-of-contents)**
 
 - `<figure>` is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc, which is referenced in the main flow of the document.
 
@@ -221,6 +240,8 @@ _TLDR_:
 
 ### Audio and Attributes
 
+**[⬆ back to top](#table-of-contents)**
+
 - The `<audio>` element is used to embed audio content into a document. Like `<video>`, `<audio>` uses src to link the audio source.
 
 ```html
@@ -244,6 +265,8 @@ For example, here’s how we could add both autoplay functionality and audio con
 ```
 
 ### Video and Embed
+
+**[⬆ back to top](#table-of-contents)**
 
 - The `<video>` element makes it clear that a developer is attempting to display a video to the user.
 
