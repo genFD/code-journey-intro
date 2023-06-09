@@ -36,8 +36,7 @@ _Thanks!_
 
 - [>\_ 🎨 HTML & CSS](docs/1-html-css.md)
 
-  - [Article](/projects/01-HTML-CSS/01-article/html-article-readme.md) `<--` HTML Fundamentals - `Headings` !!!
-  - [Wine Festival Schedule](/projects/01-HTML-CSS/02-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
+  - [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
   - [Form a story](/projects/01-HTML-CSS/03-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
   - [New York City Blog](/projects/01-HTML-CSS/04-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
   - [Omnifood](/projects/01-HTML-CSS/05-omnifood/omnifood-readme.md) `<--` HTML Fundamentals, CSS Advanced - `Grid, Flexbox` etc...
