@@ -50,39 +50,53 @@ _Thanks!_
 
 - [`MASTER PROJECT`]
 
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md)
+- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
 
 - [🥋 Language mastery](docs/2-language-mastery.md)
-
-  - [Javascript](docs/2-language-mastery.md)
-  - [Typescript](docs/2-language-mastery.md)
 
 - [💻 Building UI](docs/3-building-ui.md)
 
 - [🛰️ Creating API](docs/5-creating-api.md)
 
 - [🛢️ Databases](docs/6-databases.md)
+
 - [🐬 Docker](docs/7-docker.md)
+
 - [☁ Aws & Cloud computing](docs/8-cloud-computing.md)
+
 - [🔒 Security, Infrastructure and scalability](docs/9-security-infra-scalability.md)
+
 - [🧪 Testing](docs/testing.md)
+
 - [🏢 Production-grade fullStack Application V1](docs/10-production-grade-app.md)
 
 ## `💼 Table of contents - Notes`
 
-- [>\_ 🎨 HTML & CSS](docs/1-html-css.md)
-- [🥋 Language mastery](docs/2-language-mastery.md)
-- [🌿 Git and Github](docs/2-git-github.md)
-- [💻 Building UI](docs/3-building-ui.md)
-- [📟 Terminal Usage](docs/4-terminal-usage.md)
-- [🛰️ Creating API](docs/5-creating-api.md)
-- [🛢️ Databases](docs/6-databases.md)
-- [🔒 Security, Infrastructure and scalability](docs/9-security-infra-scalability.md)
-- [🐬 Docker](docs/7-docker.md)
-- [☁ Aws & Cloud computing](docs/8-cloud-computing.md)
-- [🧪 Testing](docs/testing.md)
-- [🏢 Production-grade fullStack Application V1](docs/10-production-grade-app.md)
-- [🎤 Interview prep](docs/interview-prep.md) **Bonus!**
+- [>\_ 🎨 HTML & CSS](https://github.com/hermkan/code-journey-notes/blob/main/docs/1-html-css.md)
+
+- [🥋 Language mastery](https://github.com/hermkan/code-journey-notes/blob/main/docs/3-language-mastery.md)
+
+- [🌿 Git and Github](https://github.com/hermkan/code-journey-notes/blob/main/docs/2-git-github.md)
+
+- [💻 Building UI](https://github.com/hermkan/code-journey-notes/blob/main/docs/4-building-ui.md)
+
+- [📟 Terminal Usage](https://github.com/hermkan/code-journey-notes/blob/main/docs/5-terminal-usage.md)
+
+- [🛰️ Creating API](https://github.com/hermkan/code-journey-notes/blob/main/docs/6-creating-api.md)
+
+- [🛢️ Databases](https://github.com/hermkan/code-journey-notes/blob/main/docs/7-databases.md)
+
+- [🐬 Docker](https://github.com/hermkan/code-journey-notes/blob/main/docs/8-docker.md)
+
+- [☁ Aws & Cloud computing](https://github.com/hermkan/code-journey-notes/blob/main/docs/9-cloud-computing.md)
+
+- [🔒 Security, Infrastructure and scalability](https://github.com/hermkan/code-journey-notes/blob/main/docs/10-security-infra-scalability.md)
+
+- [🧪 Testing](https://github.com/hermkan/code-journey-notes/blob/main/docs/11-testing.md)
+
+- [🏢 Production-grade fullStack Application V1](https://github.com/hermkan/code-journey-notes/blob/main/docs/12-production-grade-app.md)
+
+- [🎤 Interview prep](https://github.com/hermkan/code-journey-notes/blob/main/docs/13-interview-prep.md) **Bonus!**
 
 ## 🍺 `Contributing`
 
