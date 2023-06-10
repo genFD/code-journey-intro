@@ -34,9 +34,7 @@ _Thanks!_
 
 ## 💼 `Table of contents - Projects`
 
-- [>\_ 🎨 HTML & CSS](docs/1-html-css.md)
-
-- [`HTML`]
+- [ >\_ `HTML` ]
 
   - [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
 
@@ -44,31 +42,31 @@ _Thanks!_
 
   - [New York City Blog](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
 
-- [`CSS`]
+- [ 🎨 `CSS` ]
 
-- [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
+  - [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
 
-- [`MASTER PROJECT`]
+- [ ⛩️ `MASTER PROJECT` ]
 
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
+  - [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
 
-- [🥋 Language mastery](docs/2-language-mastery.md)
+- [ 🥋 `Language mastery` ]
 
-- [💻 Building UI](docs/3-building-ui.md)
+- [ 💻 `Building UI` ]
 
-- [🛰️ Creating API](docs/5-creating-api.md)
+- [ 🛰️ `Creating API` ]
 
-- [🛢️ Databases](docs/6-databases.md)
+- [ 🛢️ `Databases` ]
 
-- [🐬 Docker](docs/7-docker.md)
+- [ 🐬 `Docker` ]
 
-- [☁ Aws & Cloud computing](docs/8-cloud-computing.md)
+- [ ☁ `Aws & Cloud computing` ]
 
-- [🔒 Security, Infrastructure and scalability](docs/9-security-infra-scalability.md)
+- [ 🔒 `Security, Infrastructure and scalability` ]
 
-- [🧪 Testing](docs/testing.md)
+- [ 🧪 `Testing` ]
 
-- [🏢 Production-grade fullStack Application V1](docs/10-production-grade-app.md)
+- [ 🏢 `Production-grade fullStack Application V1` ]
 
 ## `💼 Table of contents - Notes`
 
