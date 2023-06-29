@@ -4,9 +4,17 @@
 
 Thanks for checking this repo.
 
-This repo attempts to showcase my journey from learning programming concepts and building simple and small projects to writing a production-grade full-stack application, using some of the best resources out there.
+This repo attempts to showcase my journey from learning programming concepts and building simple and small projects to writing a
 
-🎯 The goal is to serve as a collection of projects I've built and notes from courses I've been taking which can be referenced in order to :
+<!-- production-grade full-stack (not a low-value project but a product-like project that could be translate into real business) application, using some of the best resources out there. -->
+
+🎯 The idea is to serve as a collection of projects I've built and notes from courses I've been taking which can be referenced in order to :
+
+<!-- the idea is to build small projects and then progressively ramp up to incrementally arrive to a product that
+ gradually increase in difficulty
+the idea came from the fact that:
+I had built a big project (over-engineered) but it felt like a big mesh Iwas glue-coding building app
+ -->
 
 - Review a concept
 - Look up a solution to a problem
@@ -34,6 +42,8 @@ _Thanks!_
 
 ## 💼 `Table of contents - Projects`
 
+<!-- goal 1 display content -->
+
 ### `HTML & CSS`
 
 - [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` `HTML TABLES` !!!
@@ -50,17 +60,9 @@ _Thanks!_
 
 ⛩️ `MASTER PROJECT`
 
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
+- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md)
 
 ### 🥋 `Language mastery`
-
-- [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
-
-- [Form a story](https://github.com/hermkan/code-journey-html/blob/main/02-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
-
-- [New York City Blog](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
-
-- [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
 
 ⛩️ `MASTER PROJECT`
 
@@ -68,115 +70,35 @@ _Thanks!_
 
 ### 💻 `Building UI`
 
-- [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
-
-- [Form a story](https://github.com/hermkan/code-journey-html/blob/main/02-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
-
-- [New York City Blog](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
-
-- [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
-
 ⛩️ `MASTER PROJECT`
-
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
 
 ### 🛰️ `Creating API`
 
-- [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
-
-- [Form a story](https://github.com/hermkan/code-journey-html/blob/main/02-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
-
-- [New York City Blog](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
-
-- [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
-
 ⛩️ `MASTER PROJECT`
-
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
 
 ### 🛢️ `Databases`
 
-- [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
-
-- [Form a story](https://github.com/hermkan/code-journey-html/blob/main/02-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
-
-- [New York City Blog](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
-
-- [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
-
 ⛩️ `MASTER PROJECT`
-
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
 
 ### 🐬 `Docker`
 
-- [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
-
-- [Form a story](https://github.com/hermkan/code-journey-html/blob/main/02-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
-
-- [New York City Blog](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
-
-- [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
-
 ⛩️ `MASTER PROJECT`
-
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
 
 ### ☁ `Aws & Cloud computing`
 
-- [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
-
-- [Form a story](https://github.com/hermkan/code-journey-html/blob/main/02-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
-
-- [New York City Blog](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
-
-- [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
-
 ⛩️ `MASTER PROJECT`
-
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
 
 ### 🔒 `Security, Infrastructure and scalability`
 
-- [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
-
-- [Form a story](https://github.com/hermkan/code-journey-html/blob/main/02-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
-
-- [New York City Blog](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
-
-- [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
-
 ⛩️ `MASTER PROJECT`
-
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
 
 ### 🧪 `Testing`
 
-- [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
-
-- [Form a story](https://github.com/hermkan/code-journey-html/blob/main/02-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
-
-- [New York City Blog](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
-
-- [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
-
 ⛩️ `MASTER PROJECT`
-
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
 
 ### 🏢 `Production-grade fullStack Application V1`
 
-- [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` HTML Fundamentals - `TABLES` !!!
-
-- [Form a story](https://github.com/hermkan/code-journey-html/blob/main/02-form/form-readme.md) `<--` HTML Fundamentals - `Forms` !!!
-
-- [New York City Blog](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` HTML Fundamentals - `Semantics HTML` !!!
-
-- [Healthy recipe](https://github.com/hermkan/code-journey-css/blob/main/01-healthy-recipe/healthy-recipes-readme.md) `<--` CSS Fundamentals - `CSS selectors` !!!
-
 ⛩️ `MASTER PROJECT`
-
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
 
 ## `💼 Table of contents - Notes`
 
