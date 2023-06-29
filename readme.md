@@ -64,41 +64,21 @@ _Thanks!_
 
 ### 🥋 `Language mastery`
 
-⛩️ `MASTER PROJECT`
-
-- [Omnifood](https://github.com/hermkan/code-journey-html/blob/main/03-new-york-city-blog/new-york-city-readme.md) `<--` `HTML & CSS` !!!
-
 ### 💻 `Building UI`
-
-⛩️ `MASTER PROJECT`
 
 ### 🛰️ `Creating API`
 
-⛩️ `MASTER PROJECT`
-
 ### 🛢️ `Databases`
-
-⛩️ `MASTER PROJECT`
 
 ### 🐬 `Docker`
 
-⛩️ `MASTER PROJECT`
-
 ### ☁ `Aws & Cloud computing`
-
-⛩️ `MASTER PROJECT`
 
 ### 🔒 `Security, Infrastructure and scalability`
 
-⛩️ `MASTER PROJECT`
-
 ### 🧪 `Testing`
 
-⛩️ `MASTER PROJECT`
-
 ### 🏢 `Production-grade fullStack Application V1`
-
-⛩️ `MASTER PROJECT`
 
 ## `💼 Table of contents - Notes`
 
