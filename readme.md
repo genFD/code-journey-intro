@@ -4,7 +4,7 @@
 
 Thanks for checking this repo.
 
-This repo attempts to showcase my journey from learning programming concepts and building simple and small projects to writing a
+This repo attempts to apply programming concepts by building simple and small projects to writing a
 
 <!-- production-grade full-stack (not a low-value project but a product-like project that could be translate into real business) application, using some of the best resources out there. -->
 
