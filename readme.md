@@ -4,17 +4,11 @@
 
 Thanks for checking this repo.
 
-This repo attempts to apply programming concepts by building simple and small projects to writing a
+This repo attempts to apply programming concepts by building simple and small projects to writing and gradually evolve towards a
+production-grade full-stack application (not a low-value project but a product-like project that could be translate into real business).
 
-<!-- production-grade full-stack (not a low-value project but a product-like project that could be translate into real business) application, using some of the best resources out there. -->
+🎯 The idea is to serve as a collection of projects and notes from courses I've been taking which can be referenced in order to :
 
-🎯 The idea is to serve as a collection of projects I've built and notes from courses I've been taking which can be referenced in order to :
-
-<!-- the idea is to build small projects and then progressively ramp up to incrementally arrive to a product that
- gradually increase in difficulty
-the idea came from the fact that:
-I had built a big project (over-engineered) but it felt like a big mesh Iwas glue-coding building app
- -->
 
 - Review a concept
 - Look up a solution to a problem
