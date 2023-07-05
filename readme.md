@@ -33,9 +33,22 @@ _Also, this is not intended to be a programming course. If you decide to follow 
 
 _Thanks!_
 
-## 💼 `Table of contents - Projects`
+## 💼 `Table of contents - (short version)`
 
-<!-- goal 1 display content -->
+- HTML & CSS
+- Language mastery
+- Git and Github
+- Building UI
+- Terminal usage
+- Creating API
+- Databases
+- Docker
+- Cloud computing (AWS / GCP)
+- Security, Infrastructure and scalability
+- Testing
+- Production-grade fullStack Application V1
+
+## 💼 `Table of contents - (Long version)`
 
 ### `HTML & CSS`
 
