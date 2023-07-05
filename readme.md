@@ -4,11 +4,10 @@
 
 Thanks for checking this repo.
 
-This repo attempts to apply programming concepts by building simple and small projects to writing and gradually evolve towards a
+This repo attempts to apply programming concepts by building simple and small projects and gradually evolve towards a
 production-grade full-stack application (not a low-value project but a product-like project that could be translate into real business).
 
-🎯 The idea is to serve as a collection of projects and notes from courses I've been taking which can be referenced in order to :
-
+🎯 The idea is to have a collection of projects (but also notes from courses I've been taking) which can be referenced in order to :
 
 - Review a concept
 - Look up a solution to a problem
@@ -30,7 +29,7 @@ _These notes might be incomplete and/or contain mistakes._
 
 _I'm maintaining it in my spare time, so if you find mistakes, please help keep this repo up-to-date by contributing._
 
-_Also, this is not intended to be a programming course. As mentionned above, it's a collection of notes from actual programming courses I've been taking and projects I've built. If you decide to follow this "guide" you are not forced to do everything exactly as it is shown here, decide what works best for you and stay consistent with your style._
+_Also, this is not intended to be a programming course. If you decide to follow this "guide" you are not forced to do everything exactly as it is shown here, decide what works best for you and stay consistent with your style._
 
 _Thanks!_
 
@@ -39,6 +38,12 @@ _Thanks!_
 <!-- goal 1 display content -->
 
 ### `HTML & CSS`
+
+#### 📝 Notes - HTML & CSS
+
+- [>\_ 🎨 HTML & CSS](https://github.com/hermkan/code-journey-notes/blob/main/docs/1-html-css.md)
+
+#### 💼 Projects - HTML & CSS
 
 - [Wine Festival Schedule](https://github.com/hermkan/code-journey-html/blob/main/01-wine-festival-schedule/wine-festival-schedule.readme.md) `<--` `HTML TABLES` !!!
 
@@ -58,49 +63,89 @@ _Thanks!_
 
 ### 🥋 `Language mastery`
 
+#### 📝 Notes - Language mastery
+
+- [Language mastery](https://github.com/hermkan/code-journey-notes/blob/main/docs/3-language-mastery.md)
+
+#### 💼 Projects - Language mastery
+
+### `🌿 Git and Github`
+
+#### Notes - Git and Github
+
+- [Git and Github](https://github.com/hermkan/code-journey-notes/blob/main/docs/2-git-github.md)
+
 ### 💻 `Building UI`
+
+#### 📝 Notes - Building UI
+
+- [Building UI](https://github.com/hermkan/code-journey-notes/blob/main/docs/4-building-ui.md)
+
+#### 💼 Projects - Building UI
+
+### 📟 `Terminal usage`
+
+#### 📝 Notes - Terminal usage
+
+- [Terminal Usage](https://github.com/hermkan/code-journey-notes/blob/main/docs/5-terminal-usage.md)
+
+#### 💼 Projects - Terminal usage
 
 ### 🛰️ `Creating API`
 
-### 🛢️ `Databases`
-
-### 🐬 `Docker`
-
-### ☁ `Aws & Cloud computing`
-
-### 🔒 `Security, Infrastructure and scalability`
-
-### 🧪 `Testing`
-
-### 🏢 `Production-grade fullStack Application V1`
-
-## `💼 Table of contents - Notes`
-
-- [>\_ 🎨 HTML & CSS](https://github.com/hermkan/code-journey-notes/blob/main/docs/1-html-css.md)
-
-- [🥋 Language mastery](https://github.com/hermkan/code-journey-notes/blob/main/docs/3-language-mastery.md)
-
-- [🌿 Git and Github](https://github.com/hermkan/code-journey-notes/blob/main/docs/2-git-github.md)
-
-- [💻 Building UI](https://github.com/hermkan/code-journey-notes/blob/main/docs/4-building-ui.md)
-
-- [📟 Terminal Usage](https://github.com/hermkan/code-journey-notes/blob/main/docs/5-terminal-usage.md)
+#### 📝 Notes - Creating API
 
 - [🛰️ Creating API](https://github.com/hermkan/code-journey-notes/blob/main/docs/6-creating-api.md)
 
-- [🛢️ Databases](https://github.com/hermkan/code-journey-notes/blob/main/docs/7-databases.md)
+#### 💼 Projects - Creating API
 
-- [🐬 Docker](https://github.com/hermkan/code-journey-notes/blob/main/docs/8-docker.md)
+### 🛢️ `Databases`
 
-- [☁ Aws & Cloud computing](https://github.com/hermkan/code-journey-notes/blob/main/docs/9-cloud-computing.md)
+#### 📝 Notes - Databases
 
-- [🔒 Security, Infrastructure and scalability](https://github.com/hermkan/code-journey-notes/blob/main/docs/10-security-infra-scalability.md)
+- [Databases](https://github.com/hermkan/code-journey-notes/blob/main/docs/7-databases.md)
 
-- [🧪 Testing](https://github.com/hermkan/code-journey-notes/blob/main/docs/11-testing.md)
+#### 💼 Projects - Databases
+
+### 🐬 `Docker`
+
+#### 📝 Notes - Docker
+
+- [Docker](https://github.com/hermkan/code-journey-notes/blob/main/docs/8-docker.md)
+
+#### 💼 Projects - Docker
+
+### ☁ `Cloud computing (AWS / GCP)`
+
+- [Cloud computing](https://github.com/hermkan/code-journey-notes/blob/main/docs/9-cloud-computing.md)
+
+#### 📝 Notes - Cloud computing (AWS / GCP)
+
+#### 💼 Projects - Cloud computing (AWS / GCP)
+
+### 🔒 `Security, Infrastructure and scalability`
+
+- [Security, Infrastructure and scalability](https://github.com/hermkan/code-journey-notes/blob/main/docs/10-security-infra-scalability.md)
+
+#### 📝 Notes - Security, Infrastructure and scalability
+
+#### 💼 Projects - Security, Infrastructure and scalability
+
+### 🧪 `Testing`
+
+#### 📝 Notes - Testing
+
+- [Testing](https://github.com/hermkan/code-journey-notes/blob/main/docs/11-testing.md)
+
+#### 💼 Projects - Testing
+
+### 🏢 `Production-grade fullStack Application V1`
 
 - [🏢 Production-grade fullStack Application V1](https://github.com/hermkan/code-journey-notes/blob/main/docs/12-production-grade-app.md)
 
-- [🎤 Interview prep](https://github.com/hermkan/code-journey-notes/blob/main/docs/13-interview-prep.md) **Bonus!**
+- [Data structure and algorithms](https://github.com/hermkan/code-journey-notes/blob/main/docs/13-interview-prep.md) **Bonus!**
+
+- [Interview prep](https://github.com/hermkan/code-journey-notes/blob/main/docs/13-interview-prep.md) **Bonus!**
 
 ## 🍺 `Contributing`
 
