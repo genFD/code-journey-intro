@@ -33,7 +33,7 @@ _Also, this is not intended to be a programming course. If you decide to follow 
 
 _Thanks!_
 
-## 💼 `Table of contents - (short version)`
+## 💼 `Table of contents`
 
 - HTML & CSS
 - Language mastery
@@ -48,7 +48,7 @@ _Thanks!_
 - Testing
 - Production-grade fullStack Application V1
 
-[Table of contents - (Long version)]()
+[Table of contents - (Long version)](https://github.com/hermkan/code-journey-intro/blob/main/docs/table.md)
 
 ## 🍺 `Contributing`
 
