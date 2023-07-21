@@ -4,8 +4,9 @@
 
 Thanks for checking this repo.
 
-This repo attempts to apply programming concepts by building simple and small projects and gradually evolve towards a
-production-grade full-stack application (not a low-value project but a product-like project that could be translate into real business).
+This repo attempts to apply programming concepts by building simple and small projects and gradually evolve towards production-grade full-stack application.
+
+<!-- production-grade full-stack application (not a low-value project but a product-like project that could be translate into real business). -->
 
 🎯 The idea is to have a collection of projects (but also notes from courses I've been taking) which can be referenced in order to :
 
@@ -48,7 +49,7 @@ _Thanks!_
 - Testing
 - Production-grade fullStack Application V1
 
-[Table of contents - (Long version)](https://github.com/hermkan/code-journey-intro/blob/main/docs/table.md)
+Checkout [Table of contents - (Long version)](https://github.com/hermkan/code-journey-intro/blob/main/docs/table.md) for more details!
 
 ## 🍺 `Contributing`
 
@@ -72,3 +73,10 @@ Feel free to contact me at <mailto:hermann.kan@proton.com>
 ## 🔥 `P.S`
 
 **Have fun !** 🚀
+
+<!-- ABOUT ME : -->
+
+<!-- Started my career with frontend (2 years)
+Followed my curiosity with backend (2 years)
+Continued my curiosity with fullstack (2 years)
+Found my passion with DevOps (3+ years) -->
