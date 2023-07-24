@@ -86,13 +86,8 @@
 
 ### 💻 `Building UI`
 
-#### 📝 Notes - Building UI
-
-- [Building UI](https://github.com/hermkan/code-journey-notes/blob/main/docs/4-building-ui.md)
-
-#### 💼 Projects - Building UI
-
-1. Working with components, JSX and props -> [Pizza-menu demo](https://pizza-menu-props-jsx-components.vercel.app/) / [Pizza-menu repo](https://github.com/hermkan/react-part-I-projects/tree/main/01-components-props-jsx)
+- [Building UI - Notes](https://github.com/hermkan/code-journey-notes/blob/main/docs/4-building-ui.md)
+- [Building UI - Projects](https://github.com/hermkan/building-ui-projects)
 
 ⛩️ `MASTER PROJECTS - Buidling UI`
 
