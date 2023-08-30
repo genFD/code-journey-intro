@@ -1,4 +1,4 @@
-# `From mini JS/TS projects to a production-grade full stack application`
+# `From mini JS/TS projects to production-grade full stack applications`
 
 ## 🏁 `Welcome`
 
