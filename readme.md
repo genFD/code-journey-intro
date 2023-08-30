@@ -4,7 +4,7 @@
 
 Thanks for checking this repo.
 
-This repo attempts to apply programming concepts by building simple and small projects and gradually evolve towards production-grade full-stack application.
+This repo attempts to apply programming concepts by building simple and small projects and gradually evolve towards some production-grade full-stack applications.
 
 <!-- production-grade full-stack application (not a low-value project but a product-like project that could be translate into real business). -->
 
@@ -39,7 +39,7 @@ _Thanks!_
 - HTML & CSS
 - Language mastery
 - Git and Github
-- Building UI
+- [Building UI](https://github.com/genFD/Building-UI)
 - Terminal usage
 - Creating API
 - Databases
@@ -48,8 +48,6 @@ _Thanks!_
 - Security, Infrastructure and scalability
 - Testing
 - Production-grade fullStack Application V1
-
-Checkout [Table of contents - (Long version)](https://github.com/hermkan/code-journey-intro/blob/main/docs/table.md) for more details!
 
 ## 🍺 `Contributing`
 
