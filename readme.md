@@ -4,7 +4,7 @@
 
 Thanks for checking this repo.
 
-This repo attempts to apply programming concepts by building simple and small projects and gradually evolve towards some production-grade full-stack applications.
+This repo attempts to apply programming concepts by building simple and small projects and gradually evolve towards production-grade full-stack applications.
 
 <!-- production-grade full-stack application (not a low-value project but a product-like project that could be translate into real business). -->
 
@@ -20,15 +20,13 @@ It may also serve as a "guide" for learning how to code.
 
 Feel free to explore the codebase to get the most value out of the repo.
 
-I'll do my best to blog about my experience building each project, by writing about the workflow, technical choices, and talking through the code.
+I'll do my best to blog about my experience building each project, by writing about the workflow, technical choices, and talking through the code. Checkout the `readme` file for each project for more information.
 
 ## ⚠️ `Disclaimer`
 
-_A word of caution_:
+**About the notes**:
 
-_These notes might be incomplete and/or contain mistakes._
-
-_I'm maintaining it in my spare time, so if you find mistakes, please help keep this repo up-to-date by contributing._
+_I'm maintaining this project in my spare time, so if you find mistakes, please help keep this repo up-to-date by contributing._
 
 _Also, this is not intended to be a programming course. If you decide to follow this "guide" you are not forced to do everything exactly as it is shown here, decide what works best for you and stay consistent with your style._
 
